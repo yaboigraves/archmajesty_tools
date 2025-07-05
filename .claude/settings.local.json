@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(strings:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(npm run dev:*)",
+      "Bash(mkdir:*)",
+      "Bash(pkill:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(pip3 install:*)"
+    ],
+    "deny": []
+  }
+}

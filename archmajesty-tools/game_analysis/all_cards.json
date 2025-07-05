@@ -1,0 +1,1223 @@
+[
+  {
+    "name": "NAME",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Bash",
+    "id": "#001",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Rush",
+    "id": "#002",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Pummel",
+    "id": "#003",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Fracture",
+    "id": "#004",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Grasp",
+    "id": "#005",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Swing",
+    "id": "#006",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Cascade",
+    "id": "#007",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Aegis",
+    "id": "#008",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Aeria",
+    "id": "#009",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Rush",
+    "id": "#010",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Dive",
+    "id": "#011",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Spiral",
+    "id": "#012",
+    "properties": {
+      "": "",
+      "hit": ""
+    }
+  },
+  {
+    "name": "Blitz",
+    "id": "#013",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Tempestas",
+    "id": "#014",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Cyclone",
+    "id": "#015",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Crescendo",
+    "id": "#016",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Surge",
+    "id": "#017",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Rays",
+    "id": "#018",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Edge",
+    "id": "#019",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Ascent",
+    "id": "#020",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strike",
+    "id": "#021",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Star",
+    "id": "#022",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Burst",
+    "id": "#023",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Sleight",
+    "id": "#024",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Jaunt",
+    "id": "#025",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strike",
+    "id": "#026",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Splinter",
+    "id": "#027",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Vortex",
+    "id": "#028",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Advance",
+    "id": "#029",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Implosion",
+    "id": "#030",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Assault",
+    "id": "#031",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Counterward",
+    "id": "#032",
+    "properties": {
+      "": "",
+      "one": ""
+    }
+  },
+  {
+    "name": "Strike",
+    "id": "#033",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Lunge",
+    "id": "#034",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Flourish",
+    "id": "#035",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Blades",
+    "id": "#036",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Solitude",
+    "id": "#037",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Finale",
+    "id": "#038",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Macabre",
+    "id": "#039",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Reversal",
+    "id": "#040",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strike",
+    "id": "#041",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Stormbolt",
+    "id": "#042",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Decoy",
+    "id": "#043",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Storm",
+    "id": "#044",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Cascade",
+    "id": "#045",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Ambush",
+    "id": "#046",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Dragonstorm",
+    "id": "#047",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Bolt",
+    "id": "#048",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Flames",
+    "id": "#049",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Lance",
+    "id": "#050",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Blast",
+    "id": "#051",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Torrent",
+    "id": "#052",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Madness",
+    "id": "#053",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Rift",
+    "id": "#054",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Finale",
+    "id": "#055",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Flicker",
+    "id": "#056",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Volley",
+    "id": "#057",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Shot",
+    "id": "#058",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Shot",
+    "id": "#059",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Tracer",
+    "id": "#060",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Launch",
+    "id": "#061",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Thorns",
+    "id": "#062",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Arbalest",
+    "id": "#063",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Companion",
+    "id": "#064",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strike",
+    "id": "#073",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Noctarch",
+    "id": "#074",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Glimpse",
+    "id": "#075",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Existence",
+    "id": "#076",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Curse",
+    "id": "#077",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Crescendo",
+    "id": "#078",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Throat",
+    "id": "#079",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Jaunt",
+    "id": "#080",
+    "properties": {
+      "": "",
+      "one": ""
+    }
+  },
+  {
+    "name": "Song",
+    "id": "#081",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "DDDD",
+    "id": "#082",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "DDDD",
+    "id": "#082",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Hymn",
+    "id": "#082",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Reverb",
+    "id": "#082",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "One!",
+    "id": "#089",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Intervention",
+    "id": "#090",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Guidance",
+    "id": "#091",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Advantage!",
+    "id": "#092",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Frontline!",
+    "id": "#093",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Heroics",
+    "id": "#094",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Victory",
+    "id": "#095",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Lionheart",
+    "id": "#096",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Massacre",
+    "id": "#097",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Brutality",
+    "id": "#098",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Toss",
+    "id": "#099",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Warcry",
+    "id": "#100",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Rush",
+    "id": "#101",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Momentum",
+    "id": "#102",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Throttle",
+    "id": "#103",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Ire",
+    "id": "#103",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Flurry",
+    "id": "#105",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Sweep",
+    "id": "#106",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Jaunt",
+    "id": "#107",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Tempest",
+    "id": "#108",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Typhoon",
+    "id": "#109",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Takedown",
+    "id": "#110",
+    "properties": {
+      "": "",
+      "options": ""
+    }
+  },
+  {
+    "name": "Storm",
+    "id": "#111",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Flip",
+    "id": "#112",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Shards",
+    "id": "#113",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Arcbolt",
+    "id": "#114",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strike",
+    "id": "#115",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Shockblast",
+    "id": "#116",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Automata",
+    "id": "#117",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Shrapnel",
+    "id": "#118",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Simulacra",
+    "id": "#119",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Scraptitan",
+    "id": "#120",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Boast",
+    "id": "#121",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Dare",
+    "id": "#122",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Revenge",
+    "id": "#123",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Slam",
+    "id": "#124",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Reality",
+    "id": "#125",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Surge",
+    "id": "#126",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Empyrean",
+    "id": "#127",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Empyrean",
+    "id": "#128",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strength",
+    "id": "#129",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Exchange",
+    "id": "#130",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Slumber",
+    "id": "#131",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Curse",
+    "id": "#132",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Shell",
+    "id": "#133",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Traps",
+    "id": "#134",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Barrage",
+    "id": "#135",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Shell",
+    "id": "#136",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Cascade",
+    "id": "#141",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "World",
+    "id": "#142",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Moontide",
+    "id": "#143",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Impact",
+    "id": "#144",
+    "properties": {
+      "": "",
+      "earthbound": ""
+    }
+  },
+  {
+    "name": "Know-How",
+    "id": "#149",
+    "properties": {
+      "": "",
+      "effect": ""
+    }
+  },
+  {
+    "name": "Ropetrick",
+    "id": "#150",
+    "properties": {
+      "": "",
+      "effect": ""
+    }
+  },
+  {
+    "name": "Rundown",
+    "id": "#150",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Takedown",
+    "id": "#150",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Charge",
+    "id": "#157",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Blinkwarp",
+    "id": "#158",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Overload",
+    "id": "#158",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Impact",
+    "id": "#158",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Flurry",
+    "id": "#161",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Maledicion",
+    "id": "#162",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Edge",
+    "id": "#163",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Will",
+    "id": "#164",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Reversal",
+    "id": "#165",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Diminuendo",
+    "id": "#166",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Court",
+    "id": "#167",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Folly",
+    "id": "#168",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Stratagem",
+    "id": "#169",
+    "properties": {
+      "": "",
+      "order": ""
+    }
+  },
+  {
+    "name": "Advance",
+    "id": "#170",
+    "properties": {
+      "": "",
+      "order": ""
+    }
+  },
+  {
+    "name": "Engagement",
+    "id": "#171",
+    "properties": {
+      "": "",
+      "order": ""
+    }
+  },
+  {
+    "name": "Legion",
+    "id": "#172",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strike",
+    "id": "#173",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Gambit",
+    "id": "#174",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Finale",
+    "id": "#175",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Darkness",
+    "id": "#176",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Anticipation",
+    "id": "#177",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Strikes",
+    "id": "#178",
+    "properties": {
+      "": "",
+      "option": ""
+    }
+  },
+  {
+    "name": "Conclusion",
+    "id": "#179",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Looms",
+    "id": "#180",
+    "properties": {
+      "": "",
+      "1": "1"
+    }
+  },
+  {
+    "name": "Vitality",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Return",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Nothing",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Stoneworks",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Rebuke",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Fetters",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Lash",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Bolt",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Legerdemaid",
+    "id": "#000",
+    "properties": {
+      "": "",
+      "one": ""
+    }
+  },
+  {
+    "name": "Descent",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Sorcery",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Burst",
+    "id": "#000",
+    "properties": {
+      "": ""
+    }
+  },
+  {
+    "name": "Chrono\ufb02ux",
+    "id": "#000",
+    "properties": {
+      "": "",
+      "one": ""
+    }
+  },
+  {
+    "name": "Guidance",
+    "id": "#000",
+    "properties": {
+      "": "",
+      "order": "",
+      "benefits": "",
+      "one": ""
+    }
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "COR": {
+    "description": "Core rulebook containing game mechanics and rules"
+  },
+  "COM": {
+    "total_cards": 172,
+    "sample_cards": [
+      {
+        "name": "NAME",
+        "id": "#000",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Bash",
+        "id": "#001",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Rush",
+        "id": "#002",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Pummel",
+        "id": "#003",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Fracture",
+        "id": "#004",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Grasp",
+        "id": "#005",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Swing",
+        "id": "#006",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Cascade",
+        "id": "#007",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Aegis",
+        "id": "#008",
+        "properties": {
+          "": ""
+        }
+      },
+      {
+        "name": "Aeria",
+        "id": "#009",
+        "properties": {
+          "": ""
+        }
+      }
+    ],
+    "styles": {
+      "major": [
+        "Earthsteel Warrior",
+        "Trickgale Aerialist",
+        "Starseeker Spellsword",
+        "Wardforge Vigilant",
+        "Bladewaltz Duelist",
+        "Thundercrash Trickster",
+        "Daemonfyre Pyromancer",
+        "Swiftquiver Sentinel",
+        "Tidecall Summoner",
+        "Blightblood Noctarch",
+        "Valoursong Bard",
+        "Lionheart Banneret",
+        "Battlerage Champion",
+        "Windpalm Adept",
+        "Scrapsculpt Artificer",
+        "Tavernrat Taunter",
+        "Omenroot Tender",
+        "s Wiles",
+        "Forgeblast Artillery",
+        "Solar Anomalies",
+        "s Brutality",
+        "Rollstead Ranger",
+        "Starflare Raider",
+        "of War",
+        "of Negation",
+        "Legionary Talents",
+        "Duskheart Rogue",
+        "of Heroes",
+        "DDD DDD",
+        "Thundercrash Trickser",
+        "Earthsteel Aegis",
+        "Trickgale Crescendo",
+        "Starlight Sleight",
+        "s Counterward",
+        "of Reversal",
+        "Culling Bolt",
+        "Mesmeric Flicker",
+        "Barkhide Companion",
+        "Bloodmist Jaunt",
+        "the Lionheart",
+        "Infinite Ire",
+        "Tornado Flip",
+        "s Slam",
+        "the Empyrean",
+        "s Curse",
+        "Flashburst Shell",
+        "Roguestar Impact",
+        "s Takedown",
+        "are Raider",
+        "Arcanokinetic Impact",
+        "Lingering Will",
+        "s Folly",
+        "the Legion",
+        "of Darkness",
+        "Sword Looms",
+        "s Boons"
+      ],
+      "minor": []
+    }
+  },
+  "CHS": {
+    "attributes": [
+      "Might",
+      "Agility",
+      "Will",
+      "Defence"
+    ],
+    "base_values": {
+      "Health": "50",
+      "Defence": "10",
+      "Movement Points": "6",
+      "Equipment Slots": "5",
+      "Ability Slots": "5",
+      "Command Capacity": "10"
+    },
+    "creation_steps": [
+      [
+        "1",
+        "Divid"
+      ],
+      [
+        "2",
+        "Choo"
+      ],
+      [
+        "3",
+        "You\n \ngain\n \n6"
+      ],
+      [
+        "4",
+        "You\n \ncan"
+      ],
+      [
+        "5",
+        "Con"
+      ]
+    ],
+    "equipment_types": []
+  }
+}

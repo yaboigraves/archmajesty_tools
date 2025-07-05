@@ -1,0 +1,2530 @@
+[
+  {
+    "id": "#000",
+    "name": "NAME",
+    "types": [
+      "Physical"
+    ],
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + ANY",
+    "damage": "10 + ANY Effect PLACEHOLDER ● ● ✦ 4 --- PAGE 5 --- Major Styles M AJOR STYLES Each major style has two abilities, five standard cards, two starters,",
+    "effect": "XX"
+  },
+  {
+    "id": "#001",
+    "name": "Bash",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. On hit Push them 0-2 squares away. On bash They suffer an additional 5 + MT damage.",
+    "damage": "10 + MT",
+    "effect": ""
+  },
+  {
+    "id": "#002",
+    "name": "Rush",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. On hit Carry them 0-3 squares. On bash They gain 2 Weaken counters",
+    "damage": "10 + MT Shift 0-3 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#003",
+    "name": "Pummel",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "damage": "7 + MT Automatically hit a single enemy. On hit They gain a Stun counter. ✦ 6 --- PAGE 7 --- Major Styles Earthsteel Fracture",
+    "effect": ""
+  },
+  {
+    "id": "#004",
+    "name": "Fracture",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "damage": "7 + MT [ Piercing ] Place three Boulder objects within 5 squares, then for each Boulder within 5 squares, automatically hit a different enemy next to that",
+    "effect": ""
+  },
+  {
+    "id": "#005",
+    "name": "Grasp",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal",
+      "Flora"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "You must be earthbound",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT",
+    "damage": "12 + MT Pull a single enemy within 6 squares towards any square next to you, they become earthbound, then",
+    "effect": ""
+  },
+  {
+    "id": "#006",
+    "name": "Swing",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "You must be earthbound",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. On hit Until the end of the round, each targeting that enemy automatically",
+    "damage": "15 + MT",
+    "effect": ""
+  },
+  {
+    "id": "#007",
+    "name": "Cascade",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "You must be earthbound",
+    "range": "Melee or Melee Weapon",
+    "damage": "10 + MT Place a bound 3×3 area, then automatically hit each enemy within that area from any range. Earthsteel Aegis",
+    "effect": ""
+  },
+  {
+    "id": "#008",
+    "name": "Aegis",
+    "types": [
+      "Magical",
+      "Stone",
+      "Metal",
+      "Body"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares",
+    "damage": "[ Cantrip ] [ Enchant Ally ] Enchanted ally gains three Guard/10 tokens now, and two at the start of each round. At the end of each round, they",
+    "effect": ""
+  },
+  {
+    "id": "#009",
+    "name": "Aeria",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG a single enemy. If you and your target are airborne, this card gains a +5/+5 bonus. Cloudstep Rush",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#010",
+    "name": "Rush",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG a single enemy.",
+    "damage": "10 + AG Shift 1-6 squares, then",
+    "effect": "",
+    "pitchEffect": "Gain 2 Swift counters. Dragonhawk Dive"
+  },
+  {
+    "id": "#011",
+    "name": "Dive",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "You must be airborne",
+    "range": "2 squares or Melee Weapon (+1sq)",
+    "attack": "D20 + AG a single earthbound enemy.",
+    "damage": "15 + AG Shift 0-4 squares, then",
+    "effect": "",
+    "pitchEffect": "Gain 2 Swift counters. ✦"
+  },
+  {
+    "id": "#012",
+    "name": "Spiral",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "You must be earthbound",
+    "range": "1 square or Melee Weapon",
+    "attack": "D20 + AG a single enemy. On hit: You both become airborne.",
+    "damage": "12 + AG",
+    "effect": "",
+    "pitchEffect": "Gain 2 Swift counters. Jetstream"
+  },
+  {
+    "id": "#013",
+    "name": "Blitz",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "1 square or Melee Weapon",
+    "attack": "D20 + AG a single enemy.",
+    "damage": "12 + AG Shift 0-10 squares, then",
+    "effect": "",
+    "pitchEffect": "Gain 2 Swift counters. Ars Tempestas"
+  },
+  {
+    "id": "#014",
+    "name": "Tempestas",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other Green cards",
+    "range": "1 square or Melee Weapon",
+    "attack": "D20 + AG a single enemy, then repeat the effect twice. If you and your target are",
+    "damage": "10 + AG Shift 0-4 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#015",
+    "name": "Cyclone",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "6 squares or Melee Weapon (+5sq)",
+    "attack": "D20 + AG each enemy on",
+    "damage": "10 + AG Draw a line from a square you occupy to any other square within range, then",
+    "effect": ""
+  },
+  {
+    "id": "#016",
+    "name": "Crescendo",
+    "types": [
+      "Physical",
+      "Wind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Only card in hand.",
+    "range": "6 squares or Melee Weapon (+5sq)",
+    "attack": "made by the last card in",
+    "damage": "20 + AG [ Cantrip ] Automatically hit each airborne enemy within range.",
+    "effect": "",
+    "pitchEffect": "Each"
+  },
+  {
+    "id": "#017",
+    "name": "Surge",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "2 squares or Melee Weapon",
+    "attack": "D20 + WL a single enemy. If you are [ Bright ], or if this card was fixed, it gains",
+    "damage": "10 + WL Teleport 0-3 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#018",
+    "name": "Rays",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "4 squares or Ranged Weapon",
+    "damage": "2 + WL Divide 2 automatically hitting attacks among enemies within range. If you are [ Bright ], divide 3 of those attacks instead. Horizon’s Edge",
+    "effect": ""
+  },
+  {
+    "id": "#019",
+    "name": "Edge",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Void",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "2 squares or Melee Weapon",
+    "attack": "D20 + WL a single enemy. On hit If this card was played as part of a combo, once that combo",
+    "damage": "10 + WL",
+    "effect": ""
+  },
+  {
+    "id": "#020",
+    "name": "Ascent",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Fire",
+      "Ice"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": "You must be earthbound",
+    "range": "2 squares or Melee Weapon",
+    "attack": "D20 + WL a single enemy, then become airborne. On hit They become airborne as well and gain",
+    "damage": "10 + WL",
+    "effect": ""
+  },
+  {
+    "id": "#021",
+    "name": "Strike",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Void",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "2 squares or Melee Weapon",
+    "attack": "D20 + WL a single enemy. If this card was fixed, teleport 1-20 squares",
+    "damage": "10 + WL Teleport 1-6 squares next to an enemy, then",
+    "effect": ""
+  },
+  {
+    "id": "#022",
+    "name": "Star",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Ice"
+    ],
+    "primaryCost": 20,
+    "secondaryCost": 10,
+    "requirements": "Two other Blue cards",
+    "range": "2 squares or Melee Weapon",
+    "attack": "D20 + WL a single airborne enemy. On hit They become earthbound, then you draw a card and gain",
+    "damage": "12 + WL",
+    "effect": ""
+  },
+  {
+    "id": "#023",
+    "name": "Burst",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Fire"
+    ],
+    "primaryCost": 20,
+    "secondaryCost": 10,
+    "requirements": "Two other cards",
+    "range": "2 squares or Melee Weapon On hit They gain 2 Burn counters. After this combo finishes, you may take",
+    "damage": "5 + WL Automatically hit each enemy within",
+    "effect": ""
+  },
+  {
+    "id": "#024",
+    "name": "Sleight",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "2 squares or Melee Weapon",
+    "attack": "D20 + WL a single enemy. If you are [ Bright ], or if this card was fixed, it gains a +5/+5",
+    "damage": "7 + WL [ Trick ]",
+    "effect": ""
+  },
+  {
+    "id": "#025",
+    "name": "Jaunt",
+    "types": [
+      "Magical",
+      "Light",
+      "Metal",
+      "Void"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. Wardhammer",
+    "damage": "10 + MT or WL [ Protect/3 ] Teleport 1-5 squares next to an enemy, then",
+    "effect": ""
+  },
+  {
+    "id": "#026",
+    "name": "Strike",
+    "types": [
+      "Magical",
+      "Light",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. On hit Gain a Protect/3/10 token. Prism Splinter",
+    "damage": "10 + MT or WL [ Protect/3 ]",
+    "effect": ""
+  },
+  {
+    "id": "#027",
+    "name": "Splinter",
+    "types": [
+      "Magical",
+      "Light",
+      "Stone"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. On hit You may discard a card or expend a",
+    "damage": "10 + MT or WL [ Protect/3 ]",
+    "effect": ""
+  },
+  {
+    "id": "#028",
+    "name": "Vortex",
+    "types": [
+      "Magical",
+      "Light",
+      "Stone"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "6 squares towards you, then each adjacent enemy gains 2 Weaken counters and is taunted. Wardforge Advance",
+    "damage": "[ Protect/3 ] Pull 1-5 enemies within",
+    "effect": ""
+  },
+  {
+    "id": "#029",
+    "name": "Advance",
+    "types": [
+      "Magical",
+      "Light",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares or Melee Weapon",
+    "damage": "10 + MT or WL [ Protect/3 ] Shift 0-X squares in a straight line where X is your Defence, then automatically hit each enemy whose square",
+    "effect": ""
+  },
+  {
+    "id": "#030",
+    "name": "Implosion",
+    "types": [
+      "Magical",
+      "Light",
+      "Stone"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Two other cards",
+    "range": "3 squares",
+    "damage": "5 + MT or WL [ Protect/3 ] When played you may discard a card or expend a single Guard or Protect token. If you do, this card",
+    "effect": ""
+  },
+  {
+    "id": "#031",
+    "name": "Assault",
+    "types": [
+      "Magical",
+      "Light",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Two other cards",
+    "range": "3 squares",
+    "attack": "D20 + MT or WL a single enemy. On hit Gain three Protect/3/10 tokens. Vigilant’s Counterward",
+    "damage": "15 + MT or WL [ Protect/3 ]",
+    "effect": ""
+  },
+  {
+    "id": "#032",
+    "name": "Counterward",
+    "types": [
+      "Magical",
+      "Light",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL",
+    "damage": "10 + MT or WL [ Protect/3 ] If this card protects against an attack, you may immediately play it as a [",
+    "effect": ""
+  },
+  {
+    "id": "#033",
+    "name": "Strike",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG a single enemy. If you down them with this attack, you may draw a card.",
+    "damage": "10 + MT or AG [ Knell/10 ]",
+    "effect": ""
+  },
+  {
+    "id": "#034",
+    "name": "Lunge",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG",
+    "damage": "10 + MT or AG When played you may exploit an Expose counter on the target. If you do, this card gains a +0/+10",
+    "effect": ""
+  },
+  {
+    "id": "#035",
+    "name": "Flourish",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG",
+    "damage": "10 + MT or AG Whenever an enemy provides [ Opportunity ] to you, you may exploit an Expose counter on them. If you do,",
+    "effect": ""
+  },
+  {
+    "id": "#036",
+    "name": "Blades",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG a single enemy. On hit Until the end of the turn, whenever you play a card targeting",
+    "damage": "10 + MT or AG",
+    "effect": ""
+  },
+  {
+    "id": "#037",
+    "name": "Solitude",
+    "types": [
+      "Magical",
+      "Void",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "2 squares",
+    "damage": "Place a bound 3×3 area that lasts for as long as you and at least one enemy are within it. Enemies outside the area cannot target characters",
+    "effect": ""
+  },
+  {
+    "id": "#038",
+    "name": "Finale",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG a single enemy. If you down them with this attack, you may draw up",
+    "damage": "12 + MT or AG [ Knell/20 ]",
+    "effect": ""
+  },
+  {
+    "id": "#039",
+    "name": "Macabre",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG a single enemy. On hit You may exploit an Expose counter",
+    "damage": "12 + MT or AG Shift 1-4 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#040",
+    "name": "Reversal",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Self",
+    "attack": "targeting any enemy. If you do, the enchantment wears off.",
+    "damage": "[ Cantrip ] [ Enchant Ally ] You gain a Guard/10 token. Whenever you parry an attack, you may copy that",
+    "effect": ""
+  },
+  {
+    "id": "#041",
+    "name": "Strike",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + AG or WL a single enemy. On hit They gain a Stun counter. Arcing Stormbolt",
+    "damage": "7 + AG or WL Shift 0-3 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#042",
+    "name": "Stormbolt",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + AG or WL a single enemy, then chain that",
+    "damage": "7 + AG or WL When played, you may mill 2, 4, or 6 cards.",
+    "effect": ""
+  },
+  {
+    "id": "#043",
+    "name": "Decoy",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "damage": "If you are in [ Twilight ], this card has [ Trick ] Summon a Sparkdouble in your current square, then shift 1-3 squares. You may then have a single",
+    "effect": ""
+  },
+  {
+    "id": "#044",
+    "name": "Storm",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "10 squares",
+    "damage": "10 + AG or WL Choose two characters within range. Swap their positions by teleporting them, or teleport one to a square next to the other. You may automatically hit",
+    "effect": ""
+  },
+  {
+    "id": "#045",
+    "name": "Cascade",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Ranged Weapon",
+    "damage": "6 + AG or WL When played, you may mill 2, 4, or 6 cards. If you do, this card gains a +0/+X bonus where X is",
+    "effect": ""
+  },
+  {
+    "id": "#046",
+    "name": "Ambush",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "3 squares or Ranged Weapon",
+    "attack": "D20 + AG or WL a single enemy,",
+    "damage": "12 + AG or WL Summon a Sparkdouble in your current square, then shift 1-5 squares and",
+    "effect": ""
+  },
+  {
+    "id": "#047",
+    "name": "Dragonstorm",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "Battlefield",
+    "damage": "2 + AG or WL When played, you may mill 2, 4, or 6 cards. Summon a Sparkdouble in your current square, then shift 1-3 squares, then repeat",
+    "effect": ""
+  },
+  {
+    "id": "#048",
+    "name": "Bolt",
+    "types": [
+      "Magical",
+      "Shock"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Battlefield",
+    "damage": "20 + AG or WL If you are in [ Twilight ], this card has [ Trick ] Automatically hit the enemy with the single lowest current HP. If they are downed,",
+    "effect": ""
+  },
+  {
+    "id": "#049",
+    "name": "Flames",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "4 squares or Ranged Weapon",
+    "damage": "5 + MT Place a 2×2 area, then automatically hit each enemy within that area. On hit They gain a Burn counter. If you down",
+    "effect": ""
+  },
+  {
+    "id": "#050",
+    "name": "Lance",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "8 squares or Ranged Weapon (+4sq)",
+    "attack": "D20 + MT",
+    "damage": "5 + MT As an additional cost, you may pay 20 HP. If you do, empower this card, then play it again.",
+    "effect": ""
+  },
+  {
+    "id": "#051",
+    "name": "Blast",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "4 squares or Ranged Weapon",
+    "damage": "5 + MT As an additional cost, you may pay 20 HP. Place a 3×3 area, or a 5×5 area if you paid the cost,",
+    "effect": ""
+  },
+  {
+    "id": "#052",
+    "name": "Torrent",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Metal",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "4 squares or Ranged Weapon",
+    "attack": "D20 + MT",
+    "damage": "7 + MT As an additional cost, you may pay 20 HP. If you do, this card gains [ Piercing ] and automatically hits",
+    "effect": ""
+  },
+  {
+    "id": "#053",
+    "name": "Madness",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Mind",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "4 squares or Ranged Weapon",
+    "damage": "Place four 2×2 areas next to each other, then shift any characters within those areas by 0-4 squares. Each enemy shifted this way gains",
+    "effect": ""
+  },
+  {
+    "id": "#054",
+    "name": "Rift",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "4 squares or Ranged Weapon",
+    "damage": "7 + MT As an additional cost, you may pay 20 HP. If you do, whenever you down an enemy with this card, summon",
+    "effect": ""
+  },
+  {
+    "id": "#055",
+    "name": "Finale",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": "Three other Red cards",
+    "range": "4 squares or Ranged Weapon",
+    "damage": "7 + MT Place an X×X area where X is the number of enemies that gained Burn counters this turn, then automatically hit",
+    "effect": ""
+  },
+  {
+    "id": "#056",
+    "name": "Flicker",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Mind",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "4 squares or Ranged Weapon",
+    "damage": "[ Trick ] Exploit 3 Burn counters on a basic enemy who just started their turn, then control them this turn as if they were",
+    "effect": ""
+  },
+  {
+    "id": "#057",
+    "name": "Volley",
+    "types": [
+      "Physical",
+      "Flora",
+      "Wind"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "6 squares or Ranged Weapon",
+    "attack": "D20 + AG a single enemy. On hit Shift 0-3 squares. If you miss, you automatically hit them",
+    "damage": "10 + AG Shift 0-3 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#058",
+    "name": "Shot",
+    "types": [
+      "Physical",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "10 squares or Ranged Weapon (+4sq)",
+    "attack": "D20 + AG a single enemy. This card gains a +5/+5 bonus for every square the target occupies past the first. On hit",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#059",
+    "name": "Shot",
+    "types": [
+      "Physical",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "6 squares or Ranged Weapon",
+    "attack": "D20 + AG two enemies within 3 squares of each other. If you hit at least one of them, they both gain a Freeze",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#060",
+    "name": "Tracer",
+    "types": [
+      "Physical",
+      "Flora",
+      "Light"
+    ],
+    "primaryCost": 20,
+    "secondaryCost": 5,
+    "range": "6 squares or Ranged Weapon",
+    "attack": "targeting an enemy",
+    "damage": "5 + AG Place a 5×5 area, then automatically hit each enemy within that area. Until the end of the round, each",
+    "effect": ""
+  },
+  {
+    "id": "#061",
+    "name": "Launch",
+    "types": [
+      "Physical",
+      "Flora",
+      "Void"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "10 squares or Ranged Weapon (+4sq)",
+    "attack": "D20 + AG a single enemy. On hit You may have a single other ally next to you teleport to a",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#062",
+    "name": "Thorns",
+    "types": [
+      "Physical",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "10 squares or Ranged Weapon (+4sq)",
+    "damage": "7 + AG Place a 10×10 area, then automatically hit each enemy within that area. If five or more enemies were downed this way,",
+    "effect": ""
+  },
+  {
+    "id": "#063",
+    "name": "Arbalest",
+    "types": [
+      "Physical",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": "Three other Green cards",
+    "range": "10 squares or Ranged Weapon (+4sq)",
+    "attack": "D20 + AG",
+    "damage": "2 + AG Draw a line from a square you occupy to a square within range, this card gains a +5/+5",
+    "effect": ""
+  },
+  {
+    "id": "#064",
+    "name": "Companion",
+    "types": [
+      "Magical",
+      "Bestial",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "1 square",
+    "damage": "[ Cantrip ][ Opener ] Summon a Swiftwood Wolf with 1 ★ .",
+    "effect": "",
+    "pitchEffect": "A single minion you control within 5 squares gains 2 ★ and 2 Surge counters."
+  },
+  {
+    "id": "#073",
+    "name": "Strike",
+    "types": [
+      "Physical",
+      "Spirit",
+      "Dark"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. On hit Heal a single ally within 3",
+    "damage": "10 + MT or WL Mill two cards, then",
+    "effect": ""
+  },
+  {
+    "id": "#074",
+    "name": "Noctarch",
+    "types": [
+      "Physical",
+      "Spirit",
+      "Dark"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL",
+    "damage": "10 + MT or WL As an additional cost, pay up to 10 HP. If you paid 10 HP this way, the",
+    "effect": ""
+  },
+  {
+    "id": "#075",
+    "name": "Glimpse",
+    "types": [
+      "Magical",
+      "Dark",
+      "Void"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. On hit They gain 2 Weaken counters and",
+    "damage": "10 + MT or WL Mill two cards, then",
+    "effect": ""
+  },
+  {
+    "id": "#076",
+    "name": "Existence",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Dark"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon On hit They each gain a Weaken counter. You then gain",
+    "damage": "5 + MT or WL Mill two cards, then automatically hit each enemy within",
+    "effect": ""
+  },
+  {
+    "id": "#077",
+    "name": "Curse",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Dark"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or WL one of those enemies. Until the end",
+    "damage": "8 + MT or WL Place a Bloodecho mark onto 1-3 enemies within range, then",
+    "effect": ""
+  },
+  {
+    "id": "#078",
+    "name": "Crescendo",
+    "types": [
+      "Physical",
+      "Spirit",
+      "Dark"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT or WL each enemy within that",
+    "damage": "12 + MT or WL [ Piercing ] [ Overwhelm ] Place a bound 3×3 area, then",
+    "effect": ""
+  },
+  {
+    "id": "#079",
+    "name": "Throat",
+    "types": [
+      "Physical",
+      "Spirit",
+      "Dark"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Two other cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. On hit You gain 4",
+    "damage": "12 + MT or WL [ Knell/20 ] Mill two cards, then",
+    "effect": ""
+  },
+  {
+    "id": "#080",
+    "name": "Jaunt",
+    "types": [
+      "Magical",
+      "Spirit",
+      "Dark"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "damage": "7 + MT or WL If you are [ Dark ] this card has [ Trick ] Mill two cards, teleport 1-3 squares, then automatically hit a",
+    "effect": ""
+  },
+  {
+    "id": "#081",
+    "name": "Song",
+    "types": [
+      "Magical",
+      "Sound",
+      "Mind"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "damage": "15 + MT or AG Shift a single other character 1-6 squares, continuing the movement whenever they bash. If an enemy shifted this way bashes into",
+    "effect": ""
+  },
+  {
+    "id": "#082",
+    "name": "DDDD",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "5 squares or Ranged Weapon",
+    "damage": "15 + MT or AG DDD",
+    "effect": "",
+    "pitchEffect": "DD DDDD"
+  },
+  {
+    "id": "#082",
+    "name": "DDDD",
+    "types": [
+      "Physical",
+      "Stone",
+      "Metal"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "attack": "D20 + MT or AG a single enemy. On hit Until the start of your next round, automatically hit them",
+    "damage": "7 + MT or AG",
+    "effect": ""
+  },
+  {
+    "id": "#082",
+    "name": "Hymn",
+    "types": [
+      "Magical",
+      "Sound",
+      "Steel"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "attack": "D20 + MT or AG a single enemy twice. On hit They gain a Weaken or Expose counter. If you",
+    "damage": "7 + MT or AG",
+    "effect": ""
+  },
+  {
+    "id": "#082",
+    "name": "Reverb",
+    "types": [
+      "Magical",
+      "Sound",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "damage": "7 + MT or AG Place a Bardic mark on an ally within range, then automatically hit an enemy next to them from any range. Until",
+    "effect": ""
+  },
+  {
+    "id": "#089",
+    "name": "One!",
+    "types": [
+      "Physical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares or Any Weapon",
+    "attack": "D20 + AG or WL an enemy, then an ally within 5 squares of them may make a basic targeting them.",
+    "damage": "8 + AG or WL",
+    "effect": ""
+  },
+  {
+    "id": "#090",
+    "name": "Intervention",
+    "types": [
+      "Physical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares or Any Weapon",
+    "attack": "D20 + AG or WL",
+    "damage": "8 + AG or WL Whenever an enemy attacks another ally, you may play this as a [ Trick ] targeting them.",
+    "effect": ""
+  },
+  {
+    "id": "#091",
+    "name": "Guidance",
+    "types": [
+      "Magical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "damage": "As an additional cost, you may discard a card. Choose another ally, they may immediately form and resolve a 1-card combo, or a 2-card combo if you paid",
+    "effect": ""
+  },
+  {
+    "id": "#092",
+    "name": "Advantage!",
+    "types": [
+      "Magical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares gain a Priority mark. Until the end of the round, whenever another nonminion ally downs an enemy with a Priority mark, they draw a",
+    "damage": "1-4 enemies within",
+    "effect": ""
+  },
+  {
+    "id": "#093",
+    "name": "Frontline!",
+    "types": [
+      "Magical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "attack": "made",
+    "damage": "Place a 5x5 area. Within that area each ally gains 2 Surge counters, and each enemy gains a Priority mark. Until the end of the round, any",
+    "effect": ""
+  },
+  {
+    "id": "#094",
+    "name": "Heroics",
+    "types": [
+      "Magical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Three other cards",
+    "range": "5 squares",
+    "damage": "Each other ally gains 2 Empower counters, draws a card, and may immediately form and resolve a 1-card combo. Manifestation of Victory",
+    "effect": ""
+  },
+  {
+    "id": "#095",
+    "name": "Victory",
+    "types": [
+      "Magical",
+      "Sound",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Four other cards",
+    "range": "10 squares targeting any enemies within that area. For each enemy downed",
+    "attack": "from any",
+    "damage": "Place a 10×10 area, then each nonminion ally may make a basic",
+    "effect": ""
+  },
+  {
+    "id": "#096",
+    "name": "Lionheart",
+    "types": [
+      "Magical",
+      "Sound",
+      "Spirit"
+    ],
+    "primaryCost": 20,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "attack": "or a +0/+5 bonus",
+    "damage": "[ Trick ] The next card another ally plays this round automatically hits each target and gains a +0/+20 bonus if it's a single",
+    "effect": ""
+  },
+  {
+    "id": "#097",
+    "name": "Massacre",
+    "types": [
+      "Physical",
+      "Bestial"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. If you down them and you are [ Bloodied ], repeat this effect. Cunning Brutality",
+    "damage": "10 + MT",
+    "effect": ""
+  },
+  {
+    "id": "#098",
+    "name": "Brutality",
+    "types": [
+      "Physical",
+      "Bestial"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy.",
+    "damage": "10 + MT Whenever an enemy provides [ Opportunity ] to you, you may play this as a [ Trick ] targeting them.",
+    "effect": ""
+  },
+  {
+    "id": "#099",
+    "name": "Toss",
+    "types": [
+      "Physical",
+      "Bestial"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee",
+    "damage": "10 + MT Push a single enemy 1-5 squares away, or 1-10 squares if you are [ Bloodied ]. On bash Automatically hit them and any enemy they bashed into from",
+    "effect": ""
+  },
+  {
+    "id": "#100",
+    "name": "Warcry",
+    "types": [
+      "Magical",
+      "Bestial",
+      "Sound"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee",
+    "damage": "7 + MT You automatically hit 1-4 enemies within range, then each of those enemies individually chooses Fight or Flight. ✦ Fight They gain 1 Weaken counter and are",
+    "effect": ""
+  },
+  {
+    "id": "#101",
+    "name": "Rush",
+    "types": [
+      "Physical",
+      "Bestial"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT",
+    "damage": "12 + MT Shift 1-5 squares in a straight line, or 1-10 squares if you are [ Bloodied ]. If you bash into an enemy, you may",
+    "effect": ""
+  },
+  {
+    "id": "#102",
+    "name": "Momentum",
+    "types": [
+      "Physical",
+      "Bestial"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Four other cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. If you down them, you may pay 15 HP,",
+    "damage": "12 + MT Shift 1-5 squares in a straight line, then",
+    "effect": ""
+  },
+  {
+    "id": "#103",
+    "name": "Throttle",
+    "types": [
+      "Physical",
+      "Bestial"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Two other cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. On hit They gain 2 Stun counters, then push them 1-5 squares away. On bash Automatically",
+    "damage": "10 + MT",
+    "effect": ""
+  },
+  {
+    "id": "#103",
+    "name": "Ire",
+    "types": [
+      "Physical",
+      "Bestial",
+      "Spirit"
+    ],
+    "primaryCost": 20,
+    "secondaryCost": 0,
+    "range": "Melee or Melee Weapon",
+    "damage": "[ Cantrip ] Pay 25 HP, then draw 3 cards and gain 2 Swift and 1 Haste counter. Until the end of the round, attacks you make",
+    "effect": ""
+  },
+  {
+    "id": "#105",
+    "name": "Flurry",
+    "types": [
+      "Physical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG",
+    "damage": "5 + AG Divide two attacks among 1-2 enemies. If you hit an enemy at least once, they gain 2 Weaken counters. If you hit",
+    "effect": ""
+  },
+  {
+    "id": "#106",
+    "name": "Sweep",
+    "types": [
+      "Physical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG 1-3 enemies. ✦ High This card gains a +0/+5 bonus. ✦ Low On hit",
+    "damage": "5 + AG Choose High or Low, then",
+    "effect": ""
+  },
+  {
+    "id": "#107",
+    "name": "Jaunt",
+    "types": [
+      "Physical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG a single enemy whose square you passed through from any range. On hit Choose Breeze or",
+    "damage": "7 + AG Shift 1-3 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#108",
+    "name": "Tempest",
+    "types": [
+      "Magical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "card, that card makes an additional targeting a single",
+    "damage": "You gain 3 Swift counters. Until the end of the turn, whenever you play an",
+    "effect": ""
+  },
+  {
+    "id": "#109",
+    "name": "Typhoon",
+    "types": [
+      "Physical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG a single enemy whose square you passed through from any range, then repeat this effect three times,",
+    "damage": "10 + AG Shift 1-5 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#110",
+    "name": "Takedown",
+    "types": [
+      "Physical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "requirements": "Two other cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG a single enemy. On hit Choose two different options: ✦ Shift that enemy to any square within 3",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#111",
+    "name": "Storm",
+    "types": [
+      "Physical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "requirements": "Three other Green cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG a single enemy. Repeat this effect targeting the same enemy for every different status counter they have until",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#112",
+    "name": "Flip",
+    "types": [
+      "Physical",
+      "Wind",
+      "Body"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 10,
+    "range": "Self",
+    "attack": "made against you this turn. If the attacker is next to you, you may shift them to any square within",
+    "damage": "15 + AG [ Trick ] Automatically parry the next",
+    "effect": ""
+  },
+  {
+    "id": "#113",
+    "name": "Shards",
+    "types": [
+      "Magical",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "damage": "7 + WL Place a bound 1×5 area, then automatically hit each enemy within that area from any range. Afterwards, place 1 ⚙ in each unoccupied square",
+    "effect": ""
+  },
+  {
+    "id": "#114",
+    "name": "Arcbolt",
+    "types": [
+      "Magical",
+      "Metal",
+      "Shock"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "attack": "a single enemy then chain that for every 1",
+    "damage": "7 + WL As an additional cost, you may pay up to 3 ⚙ .",
+    "effect": ""
+  },
+  {
+    "id": "#115",
+    "name": "Strike",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "attack": "D20 + WL a single enemy. On hit Remove all of their armour points. If you removed 10 or more armour",
+    "damage": "7 + WL [ Piercing ]",
+    "effect": ""
+  },
+  {
+    "id": "#116",
+    "name": "Shockblast",
+    "types": [
+      "Magical",
+      "Metal",
+      "Shock",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "damage": "7 + WL Place a 3×3 area, then automatically hit each enemy within that area from any range. You may then remove 3 ⚙ from",
+    "effect": ""
+  },
+  {
+    "id": "#117",
+    "name": "Automata",
+    "types": [
+      "Magical",
+      "Metal",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "damage": "As an additional cost, you may pay up to 3 ⚙ . Choose 1-X allies where X is the amount of ⚙ you paid. Each",
+    "effect": ""
+  },
+  {
+    "id": "#118",
+    "name": "Shrapnel",
+    "types": [
+      "Magical",
+      "Metal",
+      "Fire"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "5 squares or Any Weapon",
+    "damage": "10 + WL [ Piercing ] [ Knell/10 ] As an additional cost, you may pay 5 ⚙ . Place a 3×3 area, or a 5x5",
+    "effect": ""
+  },
+  {
+    "id": "#119",
+    "name": "Simulacra",
+    "types": [
+      "Magical",
+      "Metal",
+      "Mind",
+      "Body",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": "Three other Blue cards",
+    "range": "5 squares or Any Weapon",
+    "damage": "Choose a basic minion or enemy, then summon a copy of that character under your control with the Construct type",
+    "effect": ""
+  },
+  {
+    "id": "#120",
+    "name": "Scraptitan",
+    "types": [
+      "Magical",
+      "Metal",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "damage": "[ Foretold/5 ] [ Cantrip ] As an additional cost, sacrifice 3 minions you control. If this card wasn’t [ Foretold ], you must also pay 5 ⚙ .",
+    "effect": ""
+  },
+  {
+    "id": "#121",
+    "name": "Boast",
+    "types": [
+      "Magical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "2 squares",
+    "damage": "[ Protect/2 ] Taunt any number of enemies within range. For each enemy taunted this way, gain a Surge counter. Drinker’s Dare",
+    "effect": ""
+  },
+  {
+    "id": "#122",
+    "name": "Dare",
+    "types": [
+      "Physical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. If you are taunting them, you gain a Guard/10 token. If you critically hit them,",
+    "damage": "10 + MT [ Protect/2 ] [ Critical/18 ]",
+    "effect": ""
+  },
+  {
+    "id": "#123",
+    "name": "Revenge",
+    "types": [
+      "Physical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. If you critically hit",
+    "damage": "10 + MT [ Protect/2 ] [ Critical/18 ]. This card has [ Trick ] when an enemy attacks you.",
+    "effect": ""
+  },
+  {
+    "id": "#124",
+    "name": "Slam",
+    "types": [
+      "Physical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Two other Red cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT a single enemy. This card gains a +2/+2 bonus for every enemy you are taunting,",
+    "damage": "10 + MT [ Protect/2 ] [ Critical/18 ].",
+    "effect": ""
+  },
+  {
+    "id": "#125",
+    "name": "Reality",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares or Melee Weapon by 0-5 squares. If they were an enemy,",
+    "attack": "D20 + AG",
+    "damage": "7 + AG Place an Omenroot anywhere on the battlefield, then shift a character within",
+    "effect": ""
+  },
+  {
+    "id": "#126",
+    "name": "Surge",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "3 squares gains 1 Empower, 1 Swift, 1 Surge, and 1 Haste counter. If you",
+    "damage": "As an additional cost, you may exploit a Surge counter. Another ally within",
+    "effect": ""
+  },
+  {
+    "id": "#127",
+    "name": "Empyrean",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Battlefield",
+    "damage": "[ Opener ] Place two Omenroots anywhere on the battlefield. Until the end of the round, whenever an ally teleports for the first time this round, they may gain 1",
+    "effect": ""
+  },
+  {
+    "id": "#128",
+    "name": "Empyrean",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Three other cards",
+    "range": "Battlefield",
+    "damage": "7 + AG [ Overwhelm ] Divide X attacks that automatically hit as you choose where X is how many Omenroots you control. Each of these attacks may originate",
+    "effect": ""
+  },
+  {
+    "id": "#129",
+    "name": "Strength",
+    "types": [
+      "Magical",
+      "Dark",
+      "Body",
+      "Mind",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "3 squares or Any Weapon",
+    "attack": "D20 + WL a single enemy.",
+    "damage": "10 + WL If you are [ Dark ], you may play this card as a [ Cantrip ]",
+    "effect": ""
+  },
+  {
+    "id": "#130",
+    "name": "Exchange",
+    "types": [
+      "Magical",
+      "Dark",
+      "Body",
+      "Mind",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "3 squares or Any Weapon",
+    "damage": "If you are [ Dark ], you may play this card as a [ Cantrip ] [ Enchant Enemy ] Enchanted enemy reduces all their",
+    "effect": ""
+  },
+  {
+    "id": "#131",
+    "name": "Slumber",
+    "types": [
+      "Magical",
+      "Dark",
+      "Body",
+      "Mind",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "3 squares or Any Weapon",
+    "damage": "If you are [ Dark ], you may play this card as a [ Cantrip ] [ Enchant Enemy ] The enchanted enemy acts as",
+    "effect": ""
+  },
+  {
+    "id": "#132",
+    "name": "Curse",
+    "types": [
+      "Magical",
+      "Dark",
+      "Body",
+      "Mind",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "3 squares or Any Weapon",
+    "damage": "If you are [ Dark ], you may play this card as a [ Cantrip ] Remove a single grunt, regular, or [ Bloodied ]",
+    "effect": ""
+  },
+  {
+    "id": "#133",
+    "name": "Shell",
+    "types": [
+      "Magical",
+      "Metal",
+      "Fire"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "10 squares",
+    "damage": "15 + MT or WL [ Foretold/4 ] This card can only be added to a combo by paying 3 ⚙ . Place a 3×3 area at least 3 squares",
+    "effect": ""
+  },
+  {
+    "id": "#134",
+    "name": "Traps",
+    "types": [
+      "Magical",
+      "Metal",
+      "Fire"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "10 squares",
+    "damage": "5 As an additional cost, you may pay up to 3 ⚙ . Place a 5×5 area with X charges where X is the ⚙ paid plus two. Whenever",
+    "effect": ""
+  },
+  {
+    "id": "#135",
+    "name": "Barrage",
+    "types": [
+      "Magical",
+      "Metal",
+      "Fire"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "10 squares",
+    "damage": "5 + MT or WL [ Foretold/4 ] [ Knell/15 ] This card can only be added to a combo by paying 3 ⚙ . Place three 2×2 areas that don’t",
+    "effect": ""
+  },
+  {
+    "id": "#136",
+    "name": "Shell",
+    "types": [
+      "Magical",
+      "Metal",
+      "Fire"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "10 squares",
+    "damage": "[ Foretold/4 ] This card can only be added to a combo by paying 3 ⚙ . Place a 5×5 area at least 3 squares away, then each enemy",
+    "effect": ""
+  },
+  {
+    "id": "#141",
+    "name": "Cascade",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Metal",
+      "Stone"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "2 squares or Melee Weapon (+1sq)",
+    "damage": "5 + AG or WL Automatically hit each enemy that is exactly 2 squares away. On hit They gain a Gravity counter, and",
+    "effect": ""
+  },
+  {
+    "id": "#142",
+    "name": "World",
+    "types": [
+      "Magical",
+      "Cosmic"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "2 squares or Melee Weapon (+1sq)",
+    "damage": "5 + AG or WL This card gains a +0/+1 bonus for each Gravity counter the target has up to a maximum of +0/+25. Automatically",
+    "effect": ""
+  },
+  {
+    "id": "#143",
+    "name": "Moontide",
+    "types": [
+      "Magical",
+      "Cosmic"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "2 squares or Melee Weapon (+1sq)",
+    "damage": "5 + AG or WL Automatically hit 1-3 enemies within range. On hit They gain 2 Gravity counters, then shift them 1-3 squares. On bash",
+    "effect": ""
+  },
+  {
+    "id": "#144",
+    "name": "Impact",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Stone"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Three other cards",
+    "range": "2 squares or Melee Weapon (+1sq)",
+    "attack": "D20 + AG or WL each enemy within that area. ✦ If",
+    "damage": "10 + AG or WL Place a 3×3 area, then",
+    "effect": ""
+  },
+  {
+    "id": "#149",
+    "name": "Know-How",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG a single enemy, then apply the relevant effect: ✦ Channeled This gains a +5/+5 bonus if you or the target",
+    "damage": "8 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#150",
+    "name": "Ropetrick",
+    "types": [
+      "Magical",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "4 squares or Ranged Weapon",
+    "attack": "D20 + AG a single enemy, then apply the relevant effect: ✦ Channeled On hit pull that enemy to a square next to",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#150",
+    "name": "Rundown",
+    "types": [
+      "Physical",
+      "Metal"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG that must be channeled. If that hits, shift 0-4 squares. a single enemy.",
+    "damage": "12 + AG You may make a basic ranged",
+    "effect": ""
+  },
+  {
+    "id": "#150",
+    "name": "Takedown",
+    "types": [
+      "Magical",
+      "Flora"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "requirements": "Two other cards",
+    "range": "4 squares or Ranged Weapon",
+    "attack": "D20 + AG that must be channeled. If that hits, this card has [ Knell/50 ].",
+    "damage": "10 + AG You may make a basic melee",
+    "effect": ""
+  },
+  {
+    "id": "#157",
+    "name": "Charge",
+    "types": [
+      "Physical",
+      "Cosmic",
+      "Light",
+      "Void"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. This card gains a +1/+1 bonus for",
+    "damage": "2 + MT or WL [ Piercing ] Teleport 1-10 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#158",
+    "name": "Blinkwarp",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Light",
+      "Void"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or WL",
+    "damage": "2 + MT or WL If you teleported 25 or more squares this turn, this card gains [ Trick ] for the rest",
+    "effect": ""
+  },
+  {
+    "id": "#158",
+    "name": "Overload",
+    "types": [
+      "Magical",
+      "Cosmic",
+      "Light",
+      "Void"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "damage": "2 + MT or WL This card gains a +0/+1 bonus for every square you have teleported so far this turn up to a maximum of",
+    "effect": ""
+  },
+  {
+    "id": "#158",
+    "name": "Impact",
+    "types": [
+      "Physical",
+      "Cosmic",
+      "Light",
+      "Void"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Three other cards",
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or WL a single enemy. On hit Shift them X squares in a straight line",
+    "damage": "12 + MT or WL",
+    "effect": ""
+  },
+  {
+    "id": "#161",
+    "name": "Flurry",
+    "types": [
+      "Physical",
+      "Metal",
+      "Spirit",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG",
+    "damage": "7 + MT or AG As an additional cost, you may expend a Strike token. Place a 3×1 area, or a",
+    "effect": ""
+  },
+  {
+    "id": "#162",
+    "name": "Maledicion",
+    "types": [
+      "Magical",
+      "Metal",
+      "Spirit",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "2 squares or Melee Weapon (+1sq)",
+    "attack": "D20 + MT or AG a",
+    "damage": "7 + MT or AG As an additional cost, you may expend up to 2 Strike tokens.",
+    "effect": ""
+  },
+  {
+    "id": "#163",
+    "name": "Edge",
+    "types": [
+      "Physical",
+      "Metal",
+      "Spirit",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon (+2sq)",
+    "attack": "D20 + MT or AG a",
+    "damage": "10 + MT or AG If the target isn’t [ Bloodied ], this card gains a +0/+10 bonus.",
+    "effect": ""
+  },
+  {
+    "id": "#164",
+    "name": "Will",
+    "types": [
+      "Physical",
+      "Metal",
+      "Spirit",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT or AG a single enemy, then summon a Rusted Soldier with 1 ★ , or 2",
+    "damage": "10 + MT or AG [ Cantrip ][ Opener ]",
+    "effect": ""
+  },
+  {
+    "id": "#165",
+    "name": "Reversal",
+    "types": [
+      "Magical",
+      "Mind",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "4 squares or Any Weapon",
+    "damage": "12 + AG or WL [ Protect/4 ] If this card parries an attack, you may play it as a [ Trick ]. Automatically hit a single",
+    "effect": ""
+  },
+  {
+    "id": "#166",
+    "name": "Diminuendo",
+    "types": [
+      "Magical",
+      "Mind",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "4 squares or Any Weapon",
+    "attack": "D20 + AG or WL a single",
+    "damage": "7 + AG or WL [ Protect/4 ] Whenever an enemy performs a multi-attack, this card has [ Trick ].",
+    "effect": ""
+  },
+  {
+    "id": "#167",
+    "name": "Court",
+    "types": [
+      "Magical",
+      "Mind",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "4 squares or Any Weapon",
+    "damage": "[ Cantrip ][ Protect/4 ] If this card parries an attack, you may play it as a [ Trick ]. Place a 5×5 area with 50 armour",
+    "effect": ""
+  },
+  {
+    "id": "#168",
+    "name": "Folly",
+    "types": [
+      "Magical",
+      "Mind",
+      "Light"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "4 squares or Any Weapon",
+    "attack": "D20 + AG or WL a",
+    "damage": "7 + AG or WL [ Protect/4 ] Whenever an enemy performs a melee attack, this card has [ Trick ].",
+    "effect": ""
+  },
+  {
+    "id": "#169",
+    "name": "Stratagem",
+    "types": [
+      "Physical",
+      "Metal",
+      "Body"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT",
+    "damage": "10 + MT As an additional cost, you may discard a card. Choose Sword or Shield. If you paid the cost, resolve both choices",
+    "effect": ""
+  },
+  {
+    "id": "#170",
+    "name": "Advance",
+    "types": [
+      "Physical",
+      "Metal",
+      "Body"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + MT",
+    "damage": "10 + MT Choose Charge or Slam. If this is the first or last card in the combo, resolve both choices in any order: ✦",
+    "effect": ""
+  },
+  {
+    "id": "#171",
+    "name": "Engagement",
+    "types": [
+      "Physical",
+      "Metal",
+      "Body"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "4 squares or Any Weapon (+1sq)",
+    "attack": "D20 + MT",
+    "damage": "10 + MT Choose Skirmish or Defend. If this is the first or last card in the combo, resolve both choices in any",
+    "effect": ""
+  },
+  {
+    "id": "#172",
+    "name": "Legion",
+    "types": [
+      "Magical",
+      "Mind",
+      "Body",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "Self",
+    "attack": "against the attacker with “ On hit You gain a Guard/10",
+    "damage": "[ Opener ] [ Cantrip ] [ Enchant Self ] Whenever you are attacked, you may make a basic",
+    "effect": ""
+  },
+  {
+    "id": "#173",
+    "name": "Strike",
+    "types": [
+      "Physical",
+      "Dark",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + AG a single enemy, then shift 0-3 squares. If they are [ Vulnerable ], this card gains a",
+    "damage": "5 + AG Shift 0-3 squares, then",
+    "effect": ""
+  },
+  {
+    "id": "#174",
+    "name": "Gambit",
+    "types": [
+      "Physical",
+      "Dark",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + AG a single enemy. On hit Until the start of your next turn, that enemy becomes [ Vulnerable ] and they",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#175",
+    "name": "Finale",
+    "types": [
+      "Physical",
+      "Dark",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Two other cards",
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + AG misses you, you may play this card as a [ Trick ] ignoring its requirements.",
+    "damage": "10 + AG Whenever an",
+    "effect": ""
+  },
+  {
+    "id": "#176",
+    "name": "Darkness",
+    "types": [
+      "Magical",
+      "Dark",
+      "Toxic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Self",
+    "damage": "[ Cantrip ] [ Enchant Self ] Attacks targeting you from 3 or more squares away suffer a -5/+0 penalty. At the end of each round, you may discard a card.",
+    "effect": ""
+  },
+  {
+    "id": "#177",
+    "name": "Anticipation",
+    "types": [
+      "Magical",
+      "Time",
+      "Cosmic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "6 squares or Ranged Weapon",
+    "attack": "D20 + WL each area within that area. On hit Shift them 0-3 squares. Tragedy Strikes",
+    "damage": "10 + WL Place a 3×3 area, then",
+    "effect": ""
+  },
+  {
+    "id": "#178",
+    "name": "Strikes",
+    "types": [
+      "Magical",
+      "Time",
+      "Cosmic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "6 squares or Ranged Weapon",
+    "damage": "10 + WL [ Foretold/5 ] This card automatically fails to resolve if it wasn’t [ Foretold ]. Place a 3×3 area, then automatically hit each enemy",
+    "effect": ""
+  },
+  {
+    "id": "#179",
+    "name": "Conclusion",
+    "types": [
+      "Magical",
+      "Time",
+      "Cosmic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "requirements": "Two other cards",
+    "range": "6 squares or Ranged Weapon",
+    "attack": "D20 + WL",
+    "damage": "7 + WL Place a 5×5 area, then automatically hit each enemy within that area. Afterwards, you may shift any character within",
+    "effect": ""
+  },
+  {
+    "id": "#180",
+    "name": "Looms",
+    "types": [
+      "Magical",
+      "Time",
+      "Cosmic"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "6 squares or Ranged Weapon",
+    "damage": "50 + WL [ Foretold/5 ] [ Knell/50 ] This card automatically fails to resolve if it wasn’t [ Foretold ]. Place a 1×1 area that can’t have",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Vitality",
+    "types": [
+      "Magical",
+      "Body",
+      "Stone"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "damage": "[ Protect/5 ] [ Trick ] Heal a single ally for 20 HP. If played during your turn, they also gain 2 Surge counters. Painful Return",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Return",
+    "types": [
+      "Physical",
+      "Mind",
+      "Body",
+      "Spirit"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + MT a single enemy. If you are [ Bloodied ], it gains a +5/+5 bonus and has [ Piercing ] and [",
+    "damage": "7 + MT",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Nothing",
+    "types": [
+      "Magical",
+      "Mind",
+      "Body",
+      "Spirit"
+    ],
+    "primaryCost": 20,
+    "secondaryCost": 0,
+    "range": "Self",
+    "damage": "[ Cantrip ] The first time you play this card each turn, draw 2 cards. You gain 1 Empower, 1 Swift, 1 Surge, and 1 Haste counter. At",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Stoneworks",
+    "types": [
+      "Magical",
+      "Stone",
+      "Spirit"
+    ],
+    "primaryCost": 20,
+    "secondaryCost": 0,
+    "range": "5 squares",
+    "damage": "[ Cantrip ] Ignoring line of sight, place two Labyrinth Wall objects within range. Then if you control three or more objects, you may summon a Maze Guardian with",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Rebuke",
+    "types": [
+      "Physical",
+      "Body",
+      "Mind",
+      "Spirit"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "attack": "D20 + MT a single enemy. On hit Until the end of the round, whenever that enemy attacks you, you may repeat",
+    "damage": "10 + MT [ Protect/2 ]",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Fetters",
+    "types": [
+      "Magical",
+      "Flora"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Melee Weapon",
+    "attack": "D20 + AG a single enemy. On hit They gain 1 Stun counter. If you down this enemy this turn, remove",
+    "damage": "5 + AG [ Knell/20 ]",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Lash",
+    "types": [
+      "Magical",
+      "Flora"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "3 squares or Ranged Weapon by 1-5 squares. On bash Automatically hit them and any enemy they bashed into from any range.",
+    "damage": "8 + AG Shift a single enemy within",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Bolt",
+    "types": [
+      "Magical",
+      "Flora"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "5 squares or Any Weapon",
+    "attack": "D20 + AG two enemies within 2 squares of each other. If this is the first or last card in the combo, it automatically",
+    "damage": "10 + AG",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Legerdemaid",
+    "types": [
+      "Magical",
+      "Wind",
+      "Water"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "damage": "[ Protect/5 ] [ Trick ] When played, choose one: ✦ A single enemy gains 2 Splash counters. ✦ Cleanse target character of all status counters. ✦ Remove all enchantments",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Descent",
+    "types": [
+      "Physical",
+      "Wind",
+      "Stone"
+    ],
+    "primaryCost": 15,
+    "secondaryCost": 5,
+    "range": "Melee or Melee Weapon",
+    "attack": "D20 + AG",
+    "damage": "7 + AG If you are airborne, you become earthbound, and this card gains a +3/+3 bonus and [ Overwhelm ]. Place a bound 3×3",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Sorcery",
+    "types": [
+      "Magical"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "Self",
+    "damage": "[ Cantrip ] When played, choose an option you haven’t picked yet this turn. Then if this is the third time you have played this card this turn, remove all copies of",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Burst",
+    "types": [
+      "Magical",
+      "Light",
+      "Stone"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "range": "1 square or Melee Weapon",
+    "damage": "2 + WL [ Cantrip ] Automatically hit each enemy within range. On hit If you are [ Bright ], they gain a Stun counter.",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Chronoﬂux",
+    "types": [
+      "Magical",
+      "Time"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares",
+    "damage": "[ Trick ] When played, choose one: ✦ A single ally gains a Haste counter. ✦ A single enemy gains a Stun counter. ✦ Choose up to 3 enemies whose",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Guidance",
+    "types": [
+      "Magical",
+      "Sound"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 10,
+    "range": "5 squares or Any Weapon",
+    "attack": "D20 + WL a single enemy. On hit Up to three minions you control within 5 squares each gain 1 ★ .",
+    "damage": "5 + WL",
+    "effect": ""
+  }
+]

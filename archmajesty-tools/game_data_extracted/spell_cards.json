@@ -1,0 +1,2238 @@
+[
+  {
+    "id": "#000",
+    "name": "DDD DDD DDD SPELL NAME",
+    "types": [
+      "Physical"
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + ANY |",
+    "damage": " : 10 + ANY Effect PLACEHOLDER ● ● ✦ 4 --- PAGE 5 --- Major Styles M AJOR STYLES Each major style has two abilities, five standard cards, two starters, two finishers, and one bonus card. Only styles with a “ ✦ ” in their name can be chose currently.. There are 15 major styles. ✦ Earthsteel Warrior ✦ Trickgale Aerialist ✦ Starseeker Spellsword ✦ Wardforge Vigilant ✦ Bladewaltz Duelist ✦ Thundercrash Trickser ✦ Daemonfyre Pyromancer ✦ Swiftquiver Sentinel ✦ Tidecall Summoner ✦ Blightblood Noctarch ✦ Valoursong Bard ✦ Lionheart Banneret ✦ Battlerage Champion ✦ Windpalm Adept ✦ Scrapsculpt Artificer 5 ✦ --- PAGE 6 --- Major Styles Earthsteel Warrior ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] EARTHSTEEL WARRIOR Included Abilities x1 Terse Technique x1 Power of the Earth Included Cards x2 Earthsteel Bash x1 Steelroot Grasp x2 Earthsteel Rush x1 Anvilshatter Swing x1 Pommel Pummel x1 Stonerumble Cascade x1 Earthsteel Fracture x1 Earthsteel Aegis ✦ Terse Technique 1 slot Passive Whenever you form a combo with only one, two, or three cards, each card in that combo gains a +5/+5 bonus. ✦ Power of the Earth 1 slot Active Once during your turn you may have a single standard card in your hand gain [ Trick ] until the end of the round. You may only play that card if you are earthbound. Earthsteel Bash",
+    "effect": "XX | XX"
+  },
+  {
+    "id": "#001",
+    "name": "Earthsteel Bash",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. On hit : Push them 0-2 squares away. On bash : They suffer an additional 5 + MT",
+    "damage": " : 10 + MT Earthsteel Rush",
+    "effect": "Stone, Metal | 10 | 10"
+  },
+  {
+    "id": "#002",
+    "name": "Earthsteel Rush",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. On hit : Carry them 0-3 squares. On bash : They gain 2 Weaken counters and you gain 2 Empower counters. Pommel Pummel",
+    "damage": " : 10 + MT Shift 0-3 squares, then",
+    "effect": "Stone, Metal | 10 | 10"
+  },
+  {
+    "id": "#003",
+    "name": "Pommel Pummel",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + MT Automatically hit a single enemy. On hit : They gain a Stun counter. ✦ 6 --- PAGE 7 --- Major Styles Earthsteel Fracture",
+    "effect": "Stone, Metal | 10 | 10"
+  },
+  {
+    "id": "#004",
+    "name": "Major Styles Earthsteel Fracture",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon Steelroot Grasp",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + MT [ Piercing ] Place three Boulder objects within 5 squares, then for each Boulder within 5 squares, automatically hit a different enemy next to that Boulder from any",
+    "effect": "Stone, Metal | 15 | 05"
+  },
+  {
+    "id": "#005",
+    "name": "Steelroot Grasp",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : You must be earthbound",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | that enemy. On hit : They gain 1 Stun or 2 Gravity counters. Anvilshatter Swing",
+    "damage": " : 12 + MT Pull a single enemy within 6 squares towards any square next to you, they become earthbound, then",
+    "effect": "Stone, Metal, Flora | 15 | 05"
+  },
+  {
+    "id": "#006",
+    "name": "Anvilshatter Swing",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : You must be earthbound",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. On hit : Until the end of the round, each targeting that enemy automatically hits. Stonerumble Cascade",
+    "damage": " : 15 + MT",
+    "effect": "Stone, Metal | 15 | 05"
+  },
+  {
+    "id": "#007",
+    "name": "Stonerumble Cascade",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : You must be earthbound",
+    "range": " : Melee or Melee Weapon Earthsteel Aegis",
+    "attack": " : ⸻ |",
+    "damage": " : 10 + MT Place a bound 3×3 area, then automatically hit each enemy within that area from any",
+    "effect": "Stone, Metal | 10 | 10"
+  },
+  {
+    "id": "#008",
+    "name": "Earthsteel Aegis",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares",
+    "attack": " : ⸻ | Ars Aeria",
+    "damage": " : ⸻ [ Cantrip ] [ Enchant Ally ] Enchanted ally gains three Guard/10 tokens now, and two at the start of each round. At the end of each round, they may discard a card. If they don’t, the enchantment wears off and they lose all Guard tokens it granted. 7 ✦ --- PAGE 8 --- Major Styles Trickgale Aerialist ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] TRICKGALE AERIALIST Included Abilities x1 Swiftwind Soar x1 Gale Aquila Included Cards x2 Ars Aeria x1 Jetstream Blitz x2 Cloudstep Rush x1 Ars Tempestas x1 Dragonhawk Dive x1 Swiftwind Cyclone x1 Swiftwind Spiral x1 Trickgale Crescendo ✦ Swiftwind Soar 2 slots Hybrid At the start of each round you gain 2 Swift counters. [ Movement ] During your turn while airborne, you may spend 1 movement point to move 1 square. ✦ Gale Aquila 1 slot Active Whenever you down an airborne enemy while being airborne yourself, you may shift 1-10 squares. If you do, you may then exploit a Swift counter to make a basic",
+    "effect": "Stone, Metal, Body | 10 | 10"
+  },
+  {
+    "id": "#009",
+    "name": "Ars Aeria",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. If you and your target are airborne, this card gains a +5/+5 bonus. Cloudstep Rush",
+    "damage": " : 10 + AG",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#010",
+    "name": "Cloudstep Rush",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. | [ Pitch ] Gain 2 Swift counters. Dragonhawk Dive",
+    "damage": " : 10 + AG Shift 1-6 squares, then",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#011",
+    "name": "Dragonhawk Dive",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : You must be airborne",
+    "range": " : 2 squares or Melee Weapon (+1sq)",
+    "attack": " : D20 + AG | a single earthbound enemy. | [ Pitch ] Gain 2 Swift counters. ✦ 8 --- PAGE 9 --- Major Styles Swiftwind Spiral",
+    "damage": " : 15 + AG Shift 0-4 squares, then",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#012",
+    "name": "Major Styles Swiftwind Spiral",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : You must be earthbound",
+    "range": " : 1 square or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. On hit: You both become airborne. | [ Pitch ] Gain 2 Swift counters. Jetstream Blitz",
+    "damage": " : 12 + AG",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#013",
+    "name": "Jetstream Blitz",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 1 square or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. | [ Pitch ] Gain 2 Swift counters. Ars Tempestas",
+    "damage": " : 12 + AG Shift 0-10 squares, then",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#014",
+    "name": "Ars Tempestas",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other Green cards",
+    "range": " : 1 square or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy, then repeat the effect twice. If you and your target are airborne, this card gains a +5/+5 bonus. Swiftwind Cyclone",
+    "damage": " : 10 + AG Shift 0-4 squares, then",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#015",
+    "name": "Swiftwind Cyclone",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 6 squares or Melee Weapon (+5sq) then",
+    "attack": " : D20 + AG | each enemy on that line. On hit : That enemy gains a Gravity counter. Trickgale Crescendo",
+    "damage": " : 10 + AG Draw a line from a square you occupy to any other square within",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#016",
+    "name": "Trickgale Crescendo",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Only card in hand.",
+    "range": " : 6 squares or Melee Weapon (+5sq) | [ Pitch ] Each",
+    "attack": " : ⸻ | made by the last card in your next combo this turn becomes empowered. 9 ✦ --- PAGE 10 --- Major Styles Starseeker Spellsword ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] STARSEEKER SPELLSWORD Included Abilities x1 Fate’s Intervention x1 Shape the Future Included Cards x2 Starseeker’s Surge x1 Glimmerstep Strike x2 Glimmering Rays x1 Wishing Star x1 Horizon’s Edge x1 Nebula Burst x1 Anticomet Ascent x1 Starlight Sleight ✦ Fate’s Intervention 1 slot Active At the end of the draw step, you may draw an additional card. If you do, you must play that card during your next turn if able. To play a card, it must be added to a combo or cast as a cantrip. ✦ Shape the Future 1 slot Passive At the end of each round, you may discard your hand. If you do, gain one Strike/10 token for each card discarded. Starseeker’s Surge",
+    "damage": " : 20 + AG [ Cantrip ] Automatically hit each airborne enemy within",
+    "effect": "Wind | 15 | 05"
+  },
+  {
+    "id": "#017",
+    "name": "Starseeker’s Surge",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon",
+    "attack": " : D20 + WL | a single enemy. If you are [ Bright ], or if this card was fixed, it gains a +3/+3 bonus and has [ Overwhelm ]. Glimmering Rays",
+    "damage": " : 10 + WL Teleport 0-3 squares, then",
+    "effect": "Cosmic, Light | 10 | 05"
+  },
+  {
+    "id": "#018",
+    "name": "Glimmering Rays",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Weapon If you are [ Bright ], divide 3 of those",
+    "attack": " : ⸻ | among enemies within instead. Horizon’s Edge",
+    "damage": " : 2 + WL Divide 2 automatically hitting",
+    "effect": "Cosmic, Light | 10 | 05"
+  },
+  {
+    "id": "#019",
+    "name": "Horizon’s Edge",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon",
+    "attack": " : D20 + WL | a single enemy. On hit : If this card was played as part of a combo, once that combo finishes you may take one card from that combo and put it into your hand. ✦ 10 --- PAGE 11 --- Major Styles Anticomet Ascent",
+    "damage": " : 10 + WL",
+    "effect": "Cosmic, Void, Light | 10 | 05"
+  },
+  {
+    "id": "#020",
+    "name": "Major Styles Anticomet Ascent",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : You must be earthbound",
+    "range": " : 2 squares or Melee Weapon",
+    "attack": " : D20 + WL | a single enemy, then become airborne. On hit : They become airborne as well and gain 1 Burn or Freeze counter. If this card was fixed, they gain both instead. Glimmerstep Strike",
+    "damage": " : 10 + WL",
+    "effect": "Cosmic, Fire, Ice | 10 | 05"
+  },
+  {
+    "id": "#021",
+    "name": "Glimmerstep Strike",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon",
+    "attack": " : D20 + WL | a single enemy. If this card was fixed, teleport 1-20 squares instead. Wishing Star",
+    "damage": " : 10 + WL Teleport 1-6 squares next to an enemy, then",
+    "effect": "Cosmic, Void, Light | 10 | 05"
+  },
+  {
+    "id": "#022",
+    "name": "Wishing Star",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Two other Blue cards",
+    "range": " : 2 squares or Melee Weapon",
+    "attack": " : D20 + WL | a single airborne enemy. On hit : They become earthbound, then you draw a card and gain a Strike/20 and Guard/10 token. Nebula Burst",
+    "damage": " : 12 + WL",
+    "effect": "Cosmic, Ice | 20 | 10"
+  },
+  {
+    "id": "#023",
+    "name": "Nebula Burst",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : 2 squares or Melee Weapon On hit : They gain 2 Burn counters. After this combo finishes, you may take a free Illuminate action while in any soul state. Starlight Sleight",
+    "attack": " : ⸻ |",
+    "damage": " : 5 + WL Automatically hit each enemy within",
+    "effect": "Cosmic, Fire | 20 | 10"
+  },
+  {
+    "id": "#024",
+    "name": "Starlight Sleight",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon",
+    "attack": " : D20 + WL | a single enemy. If you are [ Bright ], or if this card was fixed, it gains a +5/+5 bonus. 11 ✦ --- PAGE 12 --- Major Styles Wardforge Vigilant ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] WARDFORGE VIGILANT Included Abilities x1 Wardforge Crucible x1 Prismatic Deflection Included Cards x2 Voidlight Jaunt x1 Wardforge Advance x2 Wardhammer Strike x1 Prismatic Implosion x1 Prism Splinter x1 Wardhammer Assault x1 Witherward Vortex x1 Vigilant’s Counterward ✦ Wardforge Crucible 1 slot Active Once per turn when you guard or protect an ally, you may double the Guard value of the expended card or token. ✦ Prismatic Deflection 1 slot Active Whenever you parry an you may automatically hit a single enemy within 3 squares for 10 Magical, Light, and Metal-type",
+    "damage": " : 7 + WL [ Trick ] Voidlight Jaunt",
+    "effect": "Cosmic, Light | 10 | 10"
+  },
+  {
+    "id": "#025",
+    "name": "Voidlight Jaunt",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. Wardhammer Strike",
+    "damage": " : 10 + MT or WL [ Protect/3 ] Teleport 1-5 squares next to an enemy, then",
+    "effect": "Light, Metal, Void | 10 | 10"
+  },
+  {
+    "id": "#026",
+    "name": "Wardhammer Strike",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : Gain a Protect/3/10 token. Prism Splinter",
+    "damage": " : 10 + MT or WL [ Protect/3 ]",
+    "effect": "Light, Metal | 10 | 10"
+  },
+  {
+    "id": "#027",
+    "name": "Prism Splinter",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : You may discard a card or expend a single Guard or Protect token. If you do, this card gains a +0/+X bonus where X is its Guard value. ✦ 12 --- PAGE 13 --- Major Styles Witherward Vortex",
+    "damage": " : 10 + MT or WL [ Protect/3 ]",
+    "effect": "Light, Stone | 10 | 10"
+  },
+  {
+    "id": "#028",
+    "name": "Major Styles Witherward Vortex",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 6 squares towards you, then each adjacent enemy gains 2 Weaken counters and is taunted. Wardforge Advance",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Protect/3 ] Pull 1-5 enemies within",
+    "effect": "Light, Stone | 10 | 10"
+  },
+  {
+    "id": "#029",
+    "name": "Wardforge Advance",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon Prismatic Implosion",
+    "attack": " : ⸻ |",
+    "damage": " : 10 + MT or WL [ Protect/3 ] Shift 0-X squares in a straight line where X is your Defence, then automatically hit each enemy whose square you passed through from any",
+    "effect": "Light, Metal | 10 | 10"
+  },
+  {
+    "id": "#030",
+    "name": "Prismatic Implosion",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : 3 squares Wardhammer Assault",
+    "attack": " : ⸻ |",
+    "damage": " : 5 + MT or WL [ Protect/3 ] When played you may discard a card or expend a single Guard or Protect token. If you do, this card gains a +0/+X bonus where X is its Guard value. | Automatically hit each enemy within",
+    "effect": "Light, Stone | 10 | 10"
+  },
+  {
+    "id": "#031",
+    "name": "Wardhammer Assault",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : 3 squares",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : Gain three Protect/3/10 tokens. Vigilant’s Counterward",
+    "damage": " : 15 + MT or WL [ Protect/3 ]",
+    "effect": "Light, Metal | 10 | 10"
+  },
+  {
+    "id": "#032",
+    "name": "Vigilant’s Counterward",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT or WL | you may immediately play it as a [ Trick ] | a single enemy. 13 ✦ --- PAGE 14 --- Major Styles Bladewaltz Duelist ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] BLADEWALTZ DUELIST Included Abilities x1 Spiraling Waltz x1 Duelist’s Partner Included Cards x2 Trueblade Strike x1 Swords of Solitude x2 Ruthless Lunge x1 Perforating Finale x1 Bladewaltz Flourish x1 Waltz Macabre x1 Chasse of Blades x1 Mantle of Reversal ✦ Spiraling Waltz 1 slot Passive Whenever you parry an choose one: ✦ Gain an Empower counter. ✦ The parried enemy gains an Expose counter. ✦ Duelist’s Partner 1 slot Active If no enemy has your Bladewaltz mark, you may place one on an enemy on the battlefield. Whenever you an enemy with one of your marks, that gains a +5/+0 bonus and has “ On hit : That enemy gains 1 Expose counter.” Trueblade Strike",
+    "damage": " : 10 + MT or WL [ Protect/3 ] If this card protects against an",
+    "effect": "Light, Metal | 10 | 10"
+  },
+  {
+    "id": "#033",
+    "name": "Trueblade Strike",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or AG | a single enemy. If you down them with this you may draw a card. Ruthless Lunge",
+    "damage": " : 10 + MT or AG [ Knell/10 ]",
+    "effect": "Metal | 15 | 05"
+  },
+  {
+    "id": "#034",
+    "name": "Ruthless Lunge",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or AG | a single enemy. Bladewaltz Flourish",
+    "damage": " : 10 + MT or AG When played you may exploit an Expose counter on the target. If you do, this card gains a +0/+10 bonus and automatically hits. |",
+    "effect": "Metal | 15 | 05"
+  },
+  {
+    "id": "#035",
+    "name": "Bladewaltz Flourish",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or AG | a single enemy. On hit : You may automatically parry one of their ✦ 14 --- PAGE 15 --- Major Styles Chasse of Blades",
+    "damage": " : 10 + MT or AG Whenever an enemy provides [ Opportunity ] to you, you may exploit an Expose counter on them. If you do, play this card as a [ Trick ] targeting them. |",
+    "effect": "Metal | 15 | 05"
+  },
+  {
+    "id": "#036",
+    "name": "Blades",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or AG | a single enemy. On hit : Until the end of the turn, whenever you play a card targeting them, you may carry them 1-2 squares. On bash : They gain 1 Expose counter and suffer 5 + MT or AG",
+    "damage": " : 10 + MT or AG Swords of Solitude",
+    "effect": "Metal | 15 | 05"
+  },
+  {
+    "id": "#037",
+    "name": "Solitude",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ Place a bound 3×3 area that lasts for as long as you and at least one enemy are within it. | Enemies outside the area cannot target characters within it, and enemies within the area treat all squares outside of it as impassable terrain. Perforating Finale",
+    "effect": "Void, Light | 10 | 10"
+  },
+  {
+    "id": "#038",
+    "name": "Perforating Finale",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or AG | a single enemy. If you down them with this you may draw up to two cards. Waltz Macabre",
+    "damage": " : 12 + MT or AG [ Knell/20 ]",
+    "effect": "Metal | 15 | 05"
+  },
+  {
+    "id": "#039",
+    "name": "Waltz Macabre",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or AG | a single enemy. On hit : You may exploit an Expose counter on them. If you do, repeat this effect against an enemy you haven’t this turn. Mantle of Reversal",
+    "damage": " : 12 + MT or AG Shift 1-4 squares, then",
+    "effect": "Metal | 15 | 05"
+  },
+  {
+    "id": "#040",
+    "name": "Reversal",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Self",
+    "attack": " : ⸻ | you may copy that targeting any enemy. If you do, the enchantment wears off. 15 ✦ --- PAGE 16 --- Major Styles Thundercrash Trickster ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] THUNDERCRASH TRICKSTER Included Abilities x1 Static Rush x1 Lightning Technique Included Cards x2 Tempest Strike x1 Stormbolt Cascade x2 Arcing Stormbolt x1 Thundercrash Ambush x1 Crackling Decoy x1 Galvanic Dragonstorm x1 Switching Storm x1 Culling Bolt ✦ Static Rush 2 slots Active Whenever you shift, you may deal 5 Magical and Shock-type",
+    "damage": " : ⸻ [ Cantrip ] [ Enchant Ally ] You gain a Guard/10 token. Whenever you parry an to an enemy within 5 squares. ✦ Lightning Technique 1 slot Active Once during your turn if you are in [ Twilight ] you may have a single standard card in your hand gain [ Trick ] until the end of the round. Tempest Strike",
+    "effect": "Metal | 10 | 10"
+  },
+  {
+    "id": "#041",
+    "name": "Tempest Strike",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + AG or WL | a single enemy. On hit : They gain a Stun counter. Arcing Stormbolt",
+    "damage": " : 7 + AG or WL Shift 0-3 squares, then",
+    "effect": "Shock | 15 | 05"
+  },
+  {
+    "id": "#042",
+    "name": "Arcing Stormbolt",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + AG or WL | a single enemy, then chain that for every 2 cards milled. Crackling Decoy",
+    "damage": " : 7 + AG or WL When played, you may mill 2, 4, or 6 cards. |",
+    "effect": "Shock | 15 | 05"
+  },
+  {
+    "id": "#043",
+    "name": "Crackling Decoy",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares become taunted by the nearest Sparkdouble you control. ✦ 16 --- PAGE 17 --- Major Styles Switching Storm",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ If you are in [ Twilight ], this card has [ Trick ] | Summon a Sparkdouble in your current square, then shift 1-3 squares. You may then have a single enemy within",
+    "effect": "Shock | 10 | 10"
+  },
+  {
+    "id": "#044",
+    "name": "Major Styles Switching Storm",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 10 squares Swap their positions by teleporting them, or teleport one to a square next to the other. You may automatically hit any enemy or minion you control teleported this way. Stormbolt Cascade",
+    "attack": " : ⸻ |",
+    "damage": " : 10 + AG or WL Choose two characters within",
+    "effect": "Shock | 15 | 05"
+  },
+  {
+    "id": "#045",
+    "name": "Stormbolt Cascade",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Weapon Thundercrash Ambush",
+    "attack": " : ⸻ |",
+    "damage": " : 6 + AG or WL When played, you may mill 2, 4, or 6 cards. If you do, this card gains a +0/+X bonus where X is how many cards you milled. | Automatically hit 1-3 enemies within",
+    "effect": "Shock | 15 | 05"
+  },
+  {
+    "id": "#046",
+    "name": "Thundercrash Ambush",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 3 squares or Weapon",
+    "attack": " : D20 + AG or WL | a single enemy, dealing double",
+    "damage": " : 12 + AG or WL Summon a Sparkdouble in your current square, then shift 1-5 squares and if they are [ Vulnerable ]. Galvanic Dragonstorm",
+    "effect": "Shock | 15 | 05"
+  },
+  {
+    "id": "#047",
+    "name": "Galvanic Dragonstorm",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : Battlefield",
+    "attack": " : ⸻ | that automatically hit as you choose where X is how many Sparkdoubles you control plus one. Culling Bolt",
+    "damage": " : 2 + AG or WL When played, you may mill 2, 4, or 6 cards. | Summon a Sparkdouble in your current square, then shift 1-3 squares, then repeat this effect for every 2 cards milled. | Divide X",
+    "effect": "Shock | 15 | 05"
+  },
+  {
+    "id": "#048",
+    "name": "Culling Bolt",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Battlefield",
+    "attack": " : ⸻ |",
+    "damage": " : 20 + AG or WL If you are in [ Twilight ], this card has [ Trick ] | Automatically hit the enemy with the single lowest current HP. If they are downed, summon a Sparkdouble on a square they occupied. SPARKDOUBLE Minion, Grunt, Illusion Combat Defence HP MV Upkeep 0 Grunt 1 0 1 Illusion : You may occupy squares with other characters. Additionally whenever you are targeted, sacrifice yourself at the end of the turn. Alluring Target : Whenever an enemy enters a square next to you, taunt them. Reactive Afterimage : Whenever you are dealt automatically hit an enemy within 3 squares for twice that amount as Magical and Shock-type if able, then sacrifice yourself. Command : This minion cannot be commanded. 17 ✦ --- PAGE 18 --- Major Styles Daemonfyre Pyromancer ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] DAEMONFYRE PYROMANCER Included Abilities x1 Daemon Parade x1 Whispering Inferno Included Cards x2 Creeping Flames x1 March of Madness x2 Soulflare Lance x1 Daemonic Rift x1 Oscillating Blast x1 Pyroclastic Finale x1 Daemonforge Torrent x1 Mesmeric Flicker ✦ Daemon Parade 1 slot Active At the start of your turn, summon an Impling with 1 ★ in a square next to you. Whenever an effect would ask you to pay a certain amount of HP, you may sacrifice a minion you control within 4 squares to fully pay that cost instead. ✦ Whispering Inferno 1 slot Active During your turn, you may choose up to 3 enemies within 4 squares. Shift those enemies by 0-2 squares, they each then gain a Burn counter. Creeping Flames",
+    "effect": "Shock | 15 | 05"
+  },
+  {
+    "id": "#049",
+    "name": "Creeping Flames",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Weapon",
+    "attack": " : ⸻ | repeat this effect centered on a square they occupied. Soulﬂare Lance",
+    "damage": " : 5 + MT Place a 2×2 area, then automatically hit each enemy within that area. On hit : They gain a Burn counter. If you down an enemy with this",
+    "effect": "Spirit, Fire | 10 | 05"
+  },
+  {
+    "id": "#050",
+    "name": "Soulﬂare Lance",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 8 squares or Weapon (+4sq)",
+    "attack": " : D20 + MT | a single enemy. On hit : They gain a Burn counter. Oscillating Blast",
+    "damage": " : 5 + MT As an additional cost, you may pay 20 HP. If you do, empower this card, then play it again. |",
+    "effect": "Spirit, Fire | 10 | 05"
+  },
+  {
+    "id": "#051",
+    "name": "Oscillating Blast",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Weapon",
+    "attack": " : ⸻ | against them. ✦ 18 --- PAGE 19 --- Major Styles Daemonforge Torrent",
+    "damage": " : 5 + MT As an additional cost, you may pay 20 HP. | Place a 3×3 area, or a 5×5 area if you paid the cost, then automatically hit each enemy within that area. You may exploit a Burn counter on any target to empower the",
+    "effect": "Spirit, Fire | 10 | 05"
+  },
+  {
+    "id": "#052",
+    "name": "Major Styles Daemonforge Torrent",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Weapon",
+    "attack": " : D20 + MT | each enemy within that area. On hit : They gain 2 Burn and Expose counters. March of Madness",
+    "damage": " : 7 + MT As an additional cost, you may pay 20 HP. If you do, this card gains [ Piercing ] and automatically hits all targets. | Place a 2×2 area, then",
+    "effect": "Spirit, Metal, Fire | 10 | 05"
+  },
+  {
+    "id": "#053",
+    "name": "Madness",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Weapon",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ Place four 2×2 areas next to each other, then shift any characters within those areas by 0-4 squares. Each enemy shifted this way gains a Burn counter. Daemonic Rift",
+    "effect": "Spirit, Mind, Fire | 10 | 05"
+  },
+  {
+    "id": "#054",
+    "name": "Daemonic Rift",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 4 squares or Weapon",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + MT As an additional cost, you may pay 20 HP. If you do, whenever you down an enemy with this card, summon an Impling with 1 ★ in a square they occupied. | Place a 4×8 area, then automatically hit each enemy within that area. Until the start of your next turn, whenever an enemy moves, or ends their turn within that area, they suffer 7 + MT Pyroclastic Finale",
+    "effect": "Spirit, Fire | 10 | 05"
+  },
+  {
+    "id": "#055",
+    "name": "Pyroclastic Finale",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other Red cards",
+    "range": " : 4 squares or Weapon",
+    "attack": " : ⸻ | against them. Mesmeric Flicker",
+    "damage": " : 7 + MT Place an X×X area where X is the number of enemies that gained Burn counters this turn, then automatically hit each enemy within that area. You may exploit a Burn counter on any target to empower the",
+    "effect": "Spirit, Fire | 10 | 05"
+  },
+  {
+    "id": "#056",
+    "name": "Mesmeric Flicker",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Weapon weapon instead. ✦ Hunter’s Eye 1 slot Passive Whenever you",
+    "attack": " : ⸻ | through an equipped an enemy that is 6 or more squares away, that gains a +2/+2 bonus and [ Overwhelm ]. Eaglegrace Volley",
+    "damage": " : ⸻ [ Trick ] Exploit 3 Burn counters on a basic enemy who just started their turn, then control them this turn as if they were your minion. | [ Pitch ] [ Slow ] Summon an Impling with 1 ★ . IMPLING Minion, Grunt, Daemon Combat Defence HP MV Upkeep 3 10 6 2 Daemonic Kindling : Whenever you are downed, sacrifice yourself. Whenever you are sacrificed, if your controller is within 4 squares of you, they gain a Surge counter. Chaotic Mitosis : At the end of the round, you may roll a D20. On an 11 or higher, your controller summons an Impling with 1 ★ next to you. Command : Discard a card to grant 1 ★ . Pay 1 ★ Inflict a Burn counter on a single enemy within 2 squares. 19 ✦ --- PAGE 20 --- Major Styles Swiftquiver Sentinel ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] SWIFTQUIVER SENTINEL Included Abilities x1 Swiftquiver Trick x1 Hunter’s Eye Included Cards x2 Eaglegrace Volley x1 Blinshot Launch x2 Giantsmite Shot x1 Rain of 1,000 Thorns x1 Thornshackle Shot x1 Twisting Arbalest x1 Sunspark Tracer x1 Barkhide Companion ✦ Swiftquiver Trick 2 slots Active Whenever you play a card that can be channeled through a melee weapon, you may choose to channel one of its",
+    "effect": "Spirit, Mind, Fire | 10 | 05"
+  },
+  {
+    "id": "#057",
+    "name": "Eaglegrace Volley",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 6 squares or Weapon",
+    "attack": " : D20 + AG | a single enemy. On hit : Shift 0-3 squares. If you miss, you automatically hit them for half",
+    "damage": " : 10 + AG Shift 0-3 squares, then instead. Giantsmite Shot",
+    "effect": "Flora, Wind | 10 | 05"
+  },
+  {
+    "id": "#058",
+    "name": "Giantsmite Shot",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 10 squares or Weapon (+4sq)",
+    "attack": " : D20 + AG | a single enemy. This card gains a +5/+5 bonus for every square the target occupies past the first. On hit : If they only occupy one square, they gain a Stun counter. Thornshackle Shot",
+    "damage": " : 10 + AG",
+    "effect": "Flora | 10 | 05"
+  },
+  {
+    "id": "#059",
+    "name": "Thornshackle Shot",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 6 squares or Weapon",
+    "attack": " : D20 + AG | two enemies within 3 squares of each other. If you hit at least one of them, they both gain a Freeze counter. ✦ 20 --- PAGE 21 --- Major Styles Sunspark Tracer",
+    "damage": " : 10 + AG",
+    "effect": "Flora | 10 | 05"
+  },
+  {
+    "id": "#060",
+    "name": "Major Styles Sunspark Tracer",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 6 squares or Weapon",
+    "attack": " : ⸻ | targeting an enemy currently within that area gains a +3/+3 bonus and [ Piercing ]. Blinkshot Launch",
+    "damage": " : 5 + AG Place a 5×5 area, then automatically hit each enemy within that area. Until the end of the round, each",
+    "effect": "Flora, Light | 20 | 05"
+  },
+  {
+    "id": "#061",
+    "name": "Blinkshot Launch",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 10 squares or Weapon (+4sq)",
+    "attack": " : D20 + AG | a single enemy. On hit : You may have a single other ally next to you teleport to a square next to that enemy. They may then make a basic Rain of 1,000 Thorns",
+    "damage": " : 10 + AG",
+    "effect": "Flora, Void | 10 | 05"
+  },
+  {
+    "id": "#062",
+    "name": "Thorns",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 10 squares or Weapon (+4sq)",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + AG Place a 10×10 area, then automatically hit each enemy within that area. If five or more enemies were downed this way, repeat this effect. Twisting Arbalest",
+    "effect": "Flora | 10 | 05"
+  },
+  {
+    "id": "#063",
+    "name": "Twisting Arbalest",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other Green cards",
+    "range": " : 10 squares or Weapon (+4sq) this card gains a +5/+5 bonus for every enemy on that line.",
+    "attack": " : D20 + AG | each enemy on that line. Barkhide Companion",
+    "damage": " : 2 + AG Draw a line from a square you occupy to a square within",
+    "effect": "Flora | 10 | 05"
+  },
+  {
+    "id": "#064",
+    "name": "Barkhide Companion",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 1 square",
+    "attack": " : ⸻ | Taunt a single enemy within 5 squares. BARK & BITE Physical, Bestial, Flora a single enemy, then shift 0-3 squares towards your controller. 21 ✦ --- PAGE 22 --- Major Styles Tidecall Summoner ✧ LORE BLURB [Style description] [Synergies with other styles and artefacts] Movement to set up enemies for allies to finish off. Make enemies vulnerable (i.e. each targeting them becomes empowered) “Choke effects” based on splash counter count. Foretold effects. Perhaps a massive minion. STYLE NAME Included Abilities x1 x1 Included Cards x2 x1 x2 x1 x1 x1 x1 x1 ✦ DDD 1 slot DDD DDD DDD ✦ DDD 1 slot DDD DDD DDD ✦ 22 --- PAGE 23 --- Major Styles Blightblood Noctarch ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] BLIGHTBLOOD NOCTARCH Included Abilities x1 Echo of Inner Cruelty x1 Thoughtweft Eclipse Included Cards x2 Blightfang Strike x1 Blightfang Curse x2 Fury of the Noctarch x1 Bloodfury Crescendo x1 Frenzied Glimpse x1 Go for the Throat x1 Theft of Existence x1 Bloodmist Jaunt ✦ Echo of Inner Cruelty 2 slots Active Whenever you deal",
+    "damage": " : ⸻ [ Cantrip ][ Opener ] Summon a Swiftwood Wolf with 1 ★ . | [ Pitch ] A single minion you control within 5 squares gains 2 ★ and 2 Surge counters. SWIFTWOOD WOLF Minion, Regular, Plant, Beast Combat Defence HP MV Upkeep 3 10 15 8 4 Loyal Companion : If you start your turn next to your controller, you gain 1 ★ . Rabid Growth : At the start of each round, gain 1 Surge counter, then gain a +1 bonus to Combat until the end of the round for every Surge you have up to a +5 bonus. Command : Discard a card to grant 1 ★ . Pay 1 ★ Make a Bark & Bite Melee D20 + 3 7 + 3 to a basic enemy, place a Bloodecho mark on them. Whenever an enemy with your Bloodecho mark is downed, you may summon a Bloodgeist with 1 ★ next to them. ✦ Thoughtweft Eclipse 1 slot Active Whenever you mill two or more cards while [ Dark ], you may take a card from your Void and put it in your hand. Blightfang Strike",
+    "effect": "Bestial, Flora | 10 | 05"
+  },
+  {
+    "id": "#073",
+    "name": "Blightfang Strike",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : Heal a single ally within 3 squares by an amount equal to the",
+    "damage": " : 10 + MT or WL Mill two cards, then dealt. Fury of the Noctarch",
+    "effect": "Spirit, Dark | 15 | 05"
+  },
+  {
+    "id": "#074",
+    "name": "Noctarch",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT or WL | automatically hits. | a single enemy. This card gains a +0/+X bonus where X is half the amount of HP you paid. Frenzied Glimpse",
+    "damage": " : 10 + MT or WL As an additional cost, pay up to 10 HP. If you paid 10 HP this way, the",
+    "effect": "Spirit, Dark | 15 | 05"
+  },
+  {
+    "id": "#075",
+    "name": "Frenzied Glimpse",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : They gain 2 Weaken counters and you may take a card from your Void and put it in your hand. 23 ✦ --- PAGE 24 --- Major Styles Theft of Existence",
+    "damage": " : 10 + MT or WL Mill two cards, then",
+    "effect": "Dark, Void | 15 | 05"
+  },
+  {
+    "id": "#076",
+    "name": "Existence",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon On hit : They each gain a Weaken counter. You then gain 1 Empower for each enemy hit this way. Blightfang Curse",
+    "attack": " : ⸻ |",
+    "damage": " : 5 + MT or WL Mill two cards, then automatically hit each enemy within",
+    "effect": "Spirit, Dark | 15 | 05"
+  },
+  {
+    "id": "#077",
+    "name": "Blightfang Curse",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon then",
+    "attack": " : D20 + MT or WL | one of those enemies. Until the end of the round, whenever an enemy with your Bloodecho mark is downed by an ally, that ally gains 2 Surge counters. Bloodfury Crescendo",
+    "damage": " : 8 + MT or WL Place a Bloodecho mark onto 1-3 enemies within",
+    "effect": "Spirit, Dark | 15 | 05"
+  },
+  {
+    "id": "#078",
+    "name": "Bloodfury Crescendo",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 3 squares or Melee Weapon Go for the Throat",
+    "attack": " : D20 + MT or WL | each enemy within that area from any",
+    "damage": " : 12 + MT or WL [ Piercing ] [ Overwhelm ] Place a bound 3×3 area, then",
+    "effect": "Spirit, Dark | 15 | 05"
+  },
+  {
+    "id": "#079",
+    "name": "Throat",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : You gain 4 Surge counters. If you down them with this card, you gain 8 Surge counters instead. Bloodmist Jaunt",
+    "damage": " : 12 + MT or WL [ Knell/20 ] Mill two cards, then",
+    "effect": "Spirit, Dark | 15 | 05"
+  },
+  {
+    "id": "#080",
+    "name": "Bloodmist Jaunt",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : ⸻ | attribute the marked enemy had. Your maximum HP ✱ is equal to theirs as well. Fleeting Existence : At the end of each round, you must pay 10 HP. Whenever you are downed, you are removed from the battlefield. Command : Discard a card to grant 1 ★ . Pay 1 ★ Make a Bloodclaw BLOODCLAW Physical, Spirit, Dark a single enemy. If you down them with this you gain 2 Surge counters. ✦ 24 --- PAGE 25 --- Major Styles Valoursong Bard ✧ LORE BLURB [Style description] [Synergies with other styles and artefacts] Pitch “singing”utility effects. Haste and moving allies Valour mark on allies to proc buffs Critical Enabler effect VALOURSONG BARD Included Abilities x1 x1 Included Cards x2 x1 x2 x1 x1 x1 x1 x1 ✦ Pitch Perfect 2 slots Hybrid Cards in your hand have “[ Pitch ] Choose an ally within 5 squares, their next is empowered.” Once per turn when you resolve a [ Pitch ] effect, choose one: ✦ Heal another ally within 5 squares for 10 HP. ✦ You may draw a card, then discard a card. ✦ DDD 1 slot Passive Whenever you target another ally with an effect, they gain a Bardic mark that lasts until the start of your next turn. At the end of your turn, each ally with a Bardic mark gains their choice of a Strike/10 or Guard/5 token. Stumbling Song",
+    "damage": " : 7 + MT or WL If you are [ Dark ] this card has [ Trick ] | Mill two cards, teleport 1-3 squares, then automatically hit a single enemy. If that enemy has a Bloodecho mark, this card deals double BLOODGEIST Minion, Regular, Spirit Combat Defence HP MV Upkeep ✱ 10 ✱ 6 4 Cruel Reflection : When summoned, your Combat ✱ becomes equal to the highest Melee D20 + ✱ 7 + ✱",
+    "effect": "Spirit, Dark | 15 | 05"
+  },
+  {
+    "id": "#081",
+    "name": "Stumbling Song",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon | [ Pitch ] Shift a single other character within 5 squares by 1 square. DDDD",
+    "attack": " : ⸻ |",
+    "damage": " : 15 + MT or AG Shift a single other character 1-6 squares, continuing the movement whenever they bash. If an enemy shifted this way bashes into at least two different characters, you automatically hit them from any",
+    "effect": "Sound, Mind | 15 | 05"
+  },
+  {
+    "id": "#082",
+    "name": "DDDD",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Weapon",
+    "attack": " : ⸻ |",
+    "damage": " : 15 + MT or AG DDD | [ Pitch ] DD DDDD",
+    "effect": "Stone, Metal | 15 | 05"
+  },
+  {
+    "id": "#082",
+    "name": "DD DDDD",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon whenever they move. [ Pitch ] A single other ally within 5 squares gains 2 Swift counters. 25 ✦ --- PAGE 26 --- Major Styles Manifold Hymn",
+    "attack": " : D20 + MT or AG | a single enemy. On hit : Until the start of your next round, automatically hit them from any",
+    "damage": " : 7 + MT or AG",
+    "effect": "Stone, Metal | 15 | 05"
+  },
+  {
+    "id": "#082",
+    "name": "Major Styles Manifold Hymn",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : D20 + MT or AG | a single enemy twice. On hit : They gain a Weaken or Expose counter. If you hit twice, after this combo finishes, you may put it in your hand. | [ Pitch ] Choose another ally within 5 squares, they repeat their next once. Vigourous Reverb",
+    "damage": " : 7 + MT or AG",
+    "effect": "Sound, Steel | 15 | 05"
+  },
+  {
+    "id": "#082",
+    "name": "Vigourous Reverb",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon then automatically hit an enemy next to them from any Until the start of your next turn, whenever an ally with a Bardic mark downs an enemy, they gain 2 Surge counters. [ Pitch ] Distribute 3 Surge counters as you choose among other allies within 5 squares. ✦ 26 --- PAGE 27 --- Major Styles Lionheart Banneret ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] (Remind user that “another” means “any other ally but you”) LIONHEART BANNERET Included Abilities x1 Warleader’s Presence x1 Echoing Roar Included Cards x2 Strike as One! x1 Form the Frontline! x2 Heroic Intervention x1 Inspired Heroics x1 Warleader’s Guidance x1 Manifestation of Victory x1 Press the Advantage! x1 Roar of the Lionheart ✦ Warleader’s Presence 2 slots Hybrid At the end of each round, you may discard any number of cards to gain that many Strike/10 and Guard/10 tokens. Allies may spend your positive status counters and Strike, Guard, and Protect tokens as if they were their own. ✦ Echoing Roar 1 slot Hybrid Triple the you can target allies with cards. Once per turn whenever you target an ally with a card, they may gain 1 status counter of their choice. Strike as One!",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + MT or AG Place a Bardic mark on an ally within",
+    "effect": "Sound, Body | 15 | 05"
+  },
+  {
+    "id": "#089",
+    "name": "One!",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : D20 + AG or WL | an enemy, then an ally within 5 squares of them may make a basic targeting them. If at least one of these hits, you both gain an Empower counter. Heroic Intervention",
+    "damage": " : 8 + AG or WL",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#090",
+    "name": "Heroic Intervention",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : D20 + AG or WL | another ally, you may play this as a [ Trick ] targeting them. | a single enemy. On hit : You gain a Haste counter and may automatically parry one of their Warleader’s Guidance",
+    "damage": " : 8 + AG or WL Whenever an enemy",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#091",
+    "name": "Warleader’s Guidance",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ As an additional cost, you may discard a card. | Choose another ally, they may immediately form and resolve a 1-card combo, or a 2-card combo if you paid the cost. 27 ✦ --- PAGE 28 --- Major Styles Press the Advantage!",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#092",
+    "name": "Advantage!",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares gain a Priority mark. | Until the end of the round, whenever another nonminion ally downs an enemy with a Priority mark, they draw a card. If they drew a standard card, they can play it as a [ Trick ]. Form the Frontline!",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ 1-4 enemies within",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#093",
+    "name": "Frontline!",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares",
+    "attack": " : ⸻ | made against an enemy with a Priority mark gains [ Knell/10 ] and [ Overwhelm ]. Inspired Heroics",
+    "damage": " : ⸻ Place a 5x5 area. Within that area each ally gains 2 Surge counters, and each enemy gains a Priority mark. Until the end of the round, any",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#094",
+    "name": "Inspired Heroics",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 5 squares",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ Each other ally gains 2 Empower counters, draws a card, and may immediately form and resolve a 1-card combo. Manifestation of Victory",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#095",
+    "name": "Victory",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Four other cards",
+    "range": " : 10 squares targeting any enemies within that area. For each enemy downed this way, grant 1 Surge counter to each nonminion ally. Roar of the Lionheart",
+    "attack": " : ⸻ | from any",
+    "damage": " : ⸻ Place a 10×10 area, then each nonminion ally may make a basic",
+    "effect": "Sound, Spirit | 10 | 10"
+  },
+  {
+    "id": "#096",
+    "name": "Lionheart",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares",
+    "attack": " : ⸻ | or a +0/+5 bonus if it's a multi-attack. ✦ 28 --- PAGE 29 --- Major Styles Battlerage Champion ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] BATTLERAGE CHAMPION Included Abilities x1 Berserker Rage x1 Barbarous Obstinance Included Cards x2 Cleaving Massacre x1 Shatterskull Rush x2 Cunning Brutality x1 Battlerage Momentum x1 Minotaur Toss x1 Minotaur Throttle x1 Champion’s Warcry x1 Infinite Ire ✦ Berserker Rage 2 slots Active As long as you are [ Bloodied ], you gain a +2 bonus to Might, and melee cards you play gain [ Overwhelm ]. ✦ Barbarous Obstinance 1 slot Active Whenever you miss an you may pay 15 HP, or 0 HP if you are [ Bloodied ] and make a basic Cleaving Massacre",
+    "damage": " : ⸻ [ Trick ] The next card another ally plays this round automatically hits each target and gains a +0/+20 bonus if it's a single",
+    "effect": "Sound, Spirit | 20 | 10"
+  },
+  {
+    "id": "#097",
+    "name": "Cleaving Massacre",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. If you down them and you are [ Bloodied ], repeat this effect. Cunning Brutality",
+    "damage": " : 10 + MT",
+    "effect": "Bestial | 15 | 05"
+  },
+  {
+    "id": "#098",
+    "name": "Cunning Brutality",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. On hit : They gain 2 Weaken counters. Minotaur Toss",
+    "damage": " : 10 + MT Whenever an enemy provides [ Opportunity ] to you, you may play this as a [ Trick ] targeting them. |",
+    "effect": "Bestial | 15 | 05"
+  },
+  {
+    "id": "#099",
+    "name": "Minotaur Toss",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee 29 ✦ --- PAGE 30 --- Major Styles Champion’s Warcry",
+    "attack": " : ⸻ |",
+    "damage": " : 10 + MT Push a single enemy 1-5 squares away, or 1-10 squares if you are [ Bloodied ]. On bash : Automatically hit them and any enemy they bashed into from any",
+    "effect": "Bestial | 15 | 05"
+  },
+  {
+    "id": "#100",
+    "name": "Major Styles Champion’s Warcry",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee then each of those enemies individually chooses Fight or Flight. ✦ Fight : They gain 1 Weaken counter and are taunted. ✦ Flight : They shift 3 squares away from you, then gain 1 Stun counter. Shatterskull Rush",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + MT You automatically hit 1-4 enemies within",
+    "effect": "Bestial, Sound | 15 | 05"
+  },
+  {
+    "id": "#101",
+    "name": "Shatterskull Rush",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. On hit : If you carried them, they gain 2 Stun counters. Battlerage Momentum",
+    "damage": " : 12 + MT Shift 1-5 squares in a straight line, or 1-10 squares if you are [ Bloodied ]. If you bash into an enemy, you may carry them for the remaining distance instead. |",
+    "effect": "Bestial | 15 | 05"
+  },
+  {
+    "id": "#102",
+    "name": "Battlerage Momentum",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Four other cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. If you down them, you may pay 15 HP, or 0 HP if you are [ Bloodied ]. If you do, shift 0-5 squares in a straight line, then immediately form and resolve a 2-card combo. Minotaur Throttle",
+    "damage": " : 12 + MT Shift 1-5 squares in a straight line, then",
+    "effect": "Bestial | 15 | 05"
+  },
+  {
+    "id": "#103",
+    "name": "Minotaur Throttle",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : Melee or Melee Weapon Inﬁnite Ire",
+    "attack": " : D20 + MT | a single enemy. On hit : They gain 2 Stun counters, then push them 1-5 squares away. On bash : Automatically hit them and any enemy they bashed into for half",
+    "damage": " : 10 + MT from any",
+    "effect": "Bestial | 15 | 05"
+  },
+  {
+    "id": "#103",
+    "name": "Inﬁnite Ire",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : ⸻ | you make gain a +3/+3 bonus, but your Defence becomes 10 and you cannot take Guard or Protect actions. ✦ 30 --- PAGE 31 --- Major Styles Windpalm Adept ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] WINDPALM ADEPT Included Abilities x1 Windborne Guidance x1 The Unseen Path Included Cards x2 Withering Flurry x1 Unbound Typhoon x2 Galeforce Sweep x1 Tornado Takedown x1 Windrush Jaunt x1 Endless Storm x1 Collateral Tempest x1 Tornado Flip ✦ Windborne Guidance 2 slots Passive you make gain a +2/+2 bonus for each different status effect the target has up to a +10/+10 bonus. ✦ The Unseen Path 2 slots Active Whenever you are prompted to choose from multiple options, you may choose none, or choose an additional option you haven’t already picked. Withering Flurry",
+    "damage": " : ⸻ [ Cantrip ] Pay 25 HP, then draw 3 cards and gain 2 Swift and 1 Haste counter. Until the end of the round,",
+    "effect": "Bestial, Spirit | 20 | 00"
+  },
+  {
+    "id": "#105",
+    "name": "Withering Flurry",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | among 1-2 enemies. If you hit an enemy at least once, they gain 2 Weaken counters. If you hit an enemy twice, they gain 2 Expose counters as well. Galeforce Sweep",
+    "damage": " : 5 + AG Divide two",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#106",
+    "name": "Galeforce Sweep",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | 1-3 enemies. ✦ High : This card gains a +0/+5 bonus. ✦ Low : On hit : That enemy gains a Stun counter. Windrush Jaunt",
+    "damage": " : 5 + AG Choose High or Low, then",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#107",
+    "name": "Windrush Jaunt",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon On hit : Choose Breeze or Gust. ✦ Breeze : Shift 0-5 squares. ✦ Gust : Shift them 1-5 squares. 31 ✦ --- PAGE 32 --- Major Styles Collateral Tempest",
+    "attack": " : D20 + AG | a single enemy whose square you passed through from any",
+    "damage": " : 7 + AG Shift 1-3 squares, then",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#108",
+    "name": "Major Styles Collateral Tempest",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon Unbound Typhoon",
+    "attack": " : ⸻ | card, that card makes an additional targeting a single other enemy next to you or one of the original targets from any",
+    "damage": " : ⸻ You gain 3 Swift counters. Until the end of the turn, whenever you play an",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#109",
+    "name": "Unbound Typhoon",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon then repeat this effect three times, each time targeting a different enemy. On hit : They gain an Expose counter. Tornado Takedown",
+    "attack": " : D20 + AG | a single enemy whose square you passed through from any",
+    "damage": " : 10 + AG Shift 1-5 squares, then",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#110",
+    "name": "Tornado Takedown",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. On hit : Choose two different options: ✦ Shift that enemy to any square within 3 squares. ✦ This card gains a +0/+5 bonus. ✦ They gain 2 Weaken counters. ✦ They gain 2 Freeze counters. ✦ They gain 2 Stun counters. Endless Storm",
+    "damage": " : 10 + AG",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#111",
+    "name": "Endless Storm",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other Green cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. Repeat this effect targeting the same enemy for every different status counter they have until an misses. Tornado Flip",
+    "damage": " : 10 + AG",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#112",
+    "name": "Tornado Flip",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Self ✦ 32 --- PAGE 33 --- Major Styles Scrapsculpt Artiﬁcer ✧ LORE BLURB [Style description] [Synergies with other styles and artefacts] SCRAPSCULPT ARTIFICER Included Abilities x1 x1 Included Cards x2 x1 x2 x1 x1 x1 x1 x1 ✦ Ferroarcanic Convergence 2 slots Hybrid Whenever you play a Metal-type card, you gain 1 ⚙ . Whenever you gain ⚙ during your turn, you may pay 3 ⚙ . If you do, summon a Scrapoid with 1 ★ in a square next to you. ✦ DDD 1 slot DDD DDD DDD Ingotsliver Shards",
+    "attack": " : ⸻ | made against you this turn. If the is next to you, you may shift them to any square within 3 squares, then automatically hit them from any",
+    "damage": " : 15 + AG [ Trick ] Automatically parry the next",
+    "effect": "Wind, Body | 15 | 10"
+  },
+  {
+    "id": "#113",
+    "name": "DDD DDD DDD Ingotsliver Shards",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon Afterwards, place 1 ⚙ in each unoccupied square within that area. Ironweld Arcbolt",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + WL Place a bound 1×5 area, then automatically hit each enemy within that area from any",
+    "effect": "Metal | 10 | 05"
+  },
+  {
+    "id": "#114",
+    "name": "Ironweld Arcbolt",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : ⸻ | a single enemy then chain that for every 1 ⚙ paid. If you paid the full cost, this card gains [ Knell/10 ] and you may empower one of those Scavenger’s Strike",
+    "damage": " : 7 + WL As an additional cost, you may pay up to 3 ⚙ . |",
+    "effect": "Metal, Shock | 10 | 05"
+  },
+  {
+    "id": "#115",
+    "name": "Scavenger’s Strike",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : D20 + WL | a single enemy. On hit : Remove all of their armour points. If you removed 10 or more armour points this way, gain 3 ⚙ . 33 ✦ --- PAGE 34 --- Major Styles Enspiriting Shockblast",
+    "damage": " : 7 + WL [ Piercing ]",
+    "effect": "Metal | 10 | 05"
+  },
+  {
+    "id": "#116",
+    "name": "Major Styles Enspiriting Shockblast",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon You may then remove 3 ⚙ from that area. If you do, summon a Scrapoid with 1 ★ in that area, then grant 1 ★ to each minion within that area. Klaxon Automata",
+    "attack": " : ⸻ |",
+    "damage": " : 7 + WL Place a 3×3 area, then automatically hit each enemy within that area from any",
+    "effect": "Metal, Shock, Spirit | 10 | 05"
+  },
+  {
+    "id": "#117",
+    "name": "Klaxon Automata",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : ⸻ | Rain of Shrapnel",
+    "damage": " : ⸻ As an additional cost, you may pay up to 3 ⚙ . | Choose 1-X allies where X is the amount of ⚙ you paid. Each of those allies may shift 0-4 squares, then make a basic",
+    "effect": "Metal, Sound | 10 | 05"
+  },
+  {
+    "id": "#118",
+    "name": "Shrapnel",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 5 squares or Any Weapon Afterwards, place 1 ⚙ in each unoccupied square within that area. Ironspell Simulacra",
+    "attack": " : ⸻ |",
+    "damage": " : 10 + WL [ Piercing ] [ Knell/10 ] As an additional cost, you may pay 5 ⚙ . | Place a 3×3 area, or a 5x5 area if you paid the cost, then automatically hit each enemy within that area from any",
+    "effect": "Metal, Fire | 10 | 05"
+  },
+  {
+    "id": "#119",
+    "name": "Ironspell Simulacra",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other Blue cards",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ Choose a basic minion or enemy, then summon a copy of that character under your control with the Construct type and the Scrapheap ability. If they are a minion, they also gain 1 ★ and have 0 Upkeep. Assemble the Scraptitan",
+    "effect": "Metal, Mind, Body, Spirit | 10 | 05"
+  },
+  {
+    "id": "#120",
+    "name": "Scraptitan",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon SCRAPTITAN Minion, Elite, Construct Combat Defence HP MV Upkeep 5 10 100 6 5 You occupy a 2×2 space. Great Scrapheap : Whenever you are downed, you are removed from the battlefield. When this happens, drop any ⚙ you were holding plus an extra 5 ⚙ . Cog in the Machine : You may send ⚙ to, or receive ⚙ from any character up to 3 squares away. Additionally, once during your turn, you may pay 2 ⚙ to grant yourself 1 ★ . Command : Discard a card or pay 2 ⚙ to grant 1 ★ . Free Pay 2 ⚙ and heal yourself for 5 HP. Pay 1 ★ Make a Wrecking Claw ✦ 34 --- PAGE 35 --- Minor Styles M INOR STYLES Each minor style has one ability, and five cards of any type. There are 15 major styles. ✦ Tavernrat Taunter ✦ Omenroot Tender ✦ Witch-Queen’s Wiles ✦ Forgeblast Artillery ✦ [Red/Green] (Summertide, likely replace) ✦ Solar Anomalies ✦ Blackguard’s Brutality ✦ Rollstead ✦ [Blue] ✦ Starflare Raider ✦ Momentos of War ✦ Knave of Negation ✦ Legionary Talents ✦ Duskheart Rogue ✦ Saga of Heroes 35 ✦ --- PAGE 36 --- Major Styles Tavernrat Taunter ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] TAVERNRAT TAUNTER Included Abilities x1 Drunken Bravado Included Cards x2 Brawler’s Boast x1 Taverner’s Revenge x1 Drinker’s Dare x1 Scuffler’s Slam ✦ Drunken Bravado 2 slots Passive",
+    "attack": " : ⸻ | Pay 1 ★ Make a Scrapshock SCRAPSHOCK Magical, Metal, Shock Pay 2 ★ Pay 2 ⚙ and make a Shrapnel Blast WRECKING CLAW Physical, Metal a single enemy. On hit : You gain 2 ⚙ . SHRAPNEL BLAST Magical, Metal, Fire cards you play without [ Critical ] gain [ Critical/20 ]. Increase the critical threshold of cards by 2 for every enemy you are taunting up to 5 a maximum of 5 enemies. For example, if you play a card with [ Critical/20 ] and you are taunting 3 enemies, it would actually have [ Critical/14 ]. Brawler’s Boast",
+    "damage": " : ⸻ [ Foretold/5 ] [ Cantrip ] As an additional cost, sacrifice 3 minions you control. If this card wasn’t [ Foretold ], you must also pay 5 ⚙ . | Summon a Scraptitan with 2 ★ next to you. SCRAPOID Minion, Regular, Construct Combat Defence HP MV Upkeep 3 10 15 6 2 Scrapheap : Whenever you are downed, you are removed from the battlefield. When this happens, drop any ⚙ you were holding plus an extra 2 ⚙ . Cog in the Machine : You may send ⚙ to, or receive ⚙ from any character up to 3 squares away. Additionally, once during your turn, you may pay 2 ⚙ to grant yourself 1 ★ . Command : Discard a card or pay 2 ⚙ to grant 1 ★ . Free Pay 2 ⚙ and empower your next 3 squares 2 + 3 Automatically hit a single enemy within Melee D20 + 5 10 + 5 [ Piercing ] 3 squares 10 + 5 Place a bound 3×3 area, then automatically hit each enemy within that area from any",
+    "effect": "Metal, Spirit | 10 | 05"
+  },
+  {
+    "id": "#121",
+    "name": "Brawler’s Boast",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares For each enemy taunted this way, gain a Surge counter. Drinker’s Dare",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Protect/2 ] Taunt any number of enemies within",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#122",
+    "name": "Drinker’s Dare",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. If you are taunting them, you gain a Guard/10 token. If you critically hit them, you gain another. | [ Pitch ] [ Slow ] Taunt an enemy within 5 squares. Taverner’s Revenge",
+    "damage": " : 10 + MT [ Protect/2 ] [ Critical/18 ]",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#123",
+    "name": "Taverner’s Revenge",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | you. | a single enemy. If you critically hit them, you may automatically parry one of their | [ Pitch ] [ Slow ] Taunt an enemy within 5 squares. Scuffler’s Slam",
+    "damage": " : 10 + MT [ Protect/2 ] [ Critical/18 ]. This card has [ Trick ] when an enemy",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#124",
+    "name": "Scuffler’s Slam",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Two other Red cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. This card gains a +2/+2 bonus for every enemy you are taunting, and for every critical hit you made this turn. | [ Pitch ] [ Slow ] Taunt an enemy within 5 squares. ✦ 36 --- PAGE 37 --- Minor Styles Omenroot Tender ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] OMENROOT TENDER Included Abilities x1 Conjunctive Radiance Included Cards x2 Roots of Reality x1 Pierce the Empyrean x1 Primordial Surge x1 Unleash the Empyrean ✦ Conjunctive Radiance 2 slots Hybrid You gain a Surge counter at the start of each round. Whenever you exploit a Surge counter during your turn, you may heal another ally within 3 squares of you for 10 HP. When paired with One with All , you would be able to heal an ally within 3 squares of any Omenroot instead. Roots of Reality",
+    "damage": " : 10 + MT [ Protect/2 ] [ Critical/18 ].",
+    "effect": "Sound | 10 | 10"
+  },
+  {
+    "id": "#125",
+    "name": "Reality",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon by 0-5 squares. If they were an enemy,",
+    "attack": " : D20 + AG | them as well. Primordial Surge",
+    "damage": " : 7 + AG Place an Omenroot anywhere on the battlefield, then shift a character within",
+    "effect": "Cosmic, Flora | 10 | 10"
+  },
+  {
+    "id": "#126",
+    "name": "Primordial Surge",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares gains 1 Empower, 1 Swift, 1 Surge, and 1 Haste counter. If you paid the cost, they may also shift 0-3 squares and make a basic",
+    "attack": " : ⸻ | Pierce the Empyrean",
+    "damage": " : ⸻ As an additional cost, you may exploit a Surge counter. | Another ally within",
+    "effect": "Cosmic, Flora | 10 | 10"
+  },
+  {
+    "id": "#127",
+    "name": "Empyrean",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Battlefield",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Opener ] Place two Omenroots anywhere on the battlefield. Until the end of the round, whenever an ally teleports for the first time this round, they may gain 1 Empower, 1 Swift, 1 Surge, and 1 Haste counter. Unleash the Empyrean",
+    "effect": "Cosmic, Flora | 10 | 10"
+  },
+  {
+    "id": "#128",
+    "name": "Empyrean",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : Battlefield",
+    "attack": " : ⸻ | that automatically hit as you choose where X is how many Omenroots you control. Each of these may originate from any Omenroot on the battlefield. For each enemy hit, choose a single status effect and cleanse each counter of that type from them. OMENROOT Object, Plant ∞ HP You cannot control more than 10 Omenroots . Conjunctive Breach : All characters may enter a square occupied by an Omenroot . If they do, they teleport to any square next to another Omenroot . ✦ This counts as having shifted only 1 square. One with All : Characters with the Omentree Tender style may choose to originate any abilities or cards they play from a square occupied by an Omenroot instead. 37 ✦ --- PAGE 38 --- Major Styles Witch-Queen’s Wiles ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] WITCH-QUEEN’S WILES Included Abilities x1 Cruel Display Included Cards x2 Siphoned Strength x1 Eternal Slumber x1 Inequivelant Exchange x1 Witch-Queen’s Curse ✦ Show of Force 2 slots Active Whenever you a [ Bloodied ] enemy, you may have that automatically hit them. If you are [ Dark ], you may empower it as well. Whenever you down a nongrunt enemy, you may grant 1 ★ to any allied minion within 5 squares of the downed enemy. Siphoned Strength",
+    "damage": " : 7 + AG [ Overwhelm ] Divide X",
+    "effect": "Cosmic, Flora | 10 | 10"
+  },
+  {
+    "id": "#129",
+    "name": "Siphoned Strength",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Any Weapon",
+    "attack": " : D20 + WL | a single enemy. On hit : They gain a Weaken counter and an ally within 3 squares gains an Empower counter. Inequivelant Exchange",
+    "damage": " : 10 + WL If you are [ Dark ], you may play this card as a [ Cantrip ] |",
+    "effect": "Dark, Body, Mind, Spirit | 10 | 05"
+  },
+  {
+    "id": "#130",
+    "name": "Inequivelant Exchange",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Any Weapon",
+    "attack": " : ⸻ | attributes to 0, and you gain a +X/+X bonus to all where X was their highest attribute. If the enchanted enemy is hurt, the enchantment wears off. Eternal Slumber",
+    "damage": " : ⸻ If you are [ Dark ], you may play this card as a [ Cantrip ] | [ Enchant Enemy ] Enchanted enemy reduces all their",
+    "effect": "Dark, Body, Mind, Spirit | 10 | 05"
+  },
+  {
+    "id": "#131",
+    "name": "Eternal Slumber",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Any Weapon",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ If you are [ Dark ], you may play this card as a [ Cantrip ] | [ Enchant Enemy ] The enchanted enemy acts as if they are downed. If the enchanted enemy is hurt, the enchantment wears off. Witch-Queen’s Curse",
+    "effect": "Dark, Body, Mind, Spirit | 10 | 05"
+  },
+  {
+    "id": "#132",
+    "name": "Witch-Queen’s Curse",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Any Weapon from the battlefield, then summon a Witchcurse Boar in a square they occupied. WITCHCURSE BOAR Minion, Elite, Beast Combat Defence HP MV Upkeep 5 10 50 6 5 Porcine Geas : Whenever your controller is hurt, the and it gains [ Piercing ]. Crucible Shell",
+    "attack": " : ⸻ | GORETUSK CHARGE Physical, Bestial an enemy. ✦ 38 --- PAGE 39 --- Minor Styles Forgeblast Artillery ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] FORGEBLAST ARTILLERY Included Abilities x1 Arcane Designation Included Cards x2 Crucible Shell x1 Forgeslag Barrage x1 Scrapfire Traps x1 Flashburst Shell ✦ Gaze of Designation 1 slot Active Once per turn whenever you discard, you may gain 3 ⚙ . Whenever you play an or area card, you may pay 2 ⚙ . If you do, double its",
+    "damage": " : ⸻ If you are [ Dark ], you may play this card as a [ Cantrip ] | Remove a single grunt, regular, or [ Bloodied ] elite-type enemy within dealt to them is halved and the rest is dealt to you. Once per round whenever your controller targets you with a card or ability, you heal 10 HP. The Curse Lifted : When you are downed, you are removed from the battlefield. The enemy that you were summoned from is then placed onto a square you occupied with 1 HP. Command : Discard a card to grant 1 ★ Pay 1 ★ Make a Goretusk Charge Melee D20 + 5 7 + 5 Shift 0-4 squares, then",
+    "effect": "Dark, Body, Mind, Spirit | 10 | 05"
+  },
+  {
+    "id": "#133",
+    "name": "Crucible Shell",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 10 squares",
+    "attack": " : ⸻ |",
+    "damage": " : 15 + MT or WL [ Foretold/4 ] This card can only be added to a combo by paying 3 ⚙ . | Place a 3×3 area at least 3 squares away, then automatically hit each enemy within that area. Scrapﬁre Traps",
+    "effect": "Metal, Fire | 15 | 05"
+  },
+  {
+    "id": "#134",
+    "name": "Scrapﬁre Traps",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 10 squares",
+    "attack": " : ⸻ |",
+    "damage": " : 5 As an additional cost, you may pay up to 3 ⚙ . | Place a 5×5 area with X charges where X is the ⚙ paid plus two. Whenever an enemy enters a square within that area, remove a charge and automatically hit them, then inflict 1 Burn counter. Forgeslag Barrage",
+    "effect": "Metal, Fire | 15 | 05"
+  },
+  {
+    "id": "#135",
+    "name": "Forgeslag Barrage",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 10 squares",
+    "attack": " : ⸻ |",
+    "damage": " : 5 + MT or WL [ Foretold/4 ] [ Knell/15 ] This card can only be added to a combo by paying 3 ⚙ . | Place three 2×2 areas that don’t overlap at least 3 squares away, then automatically hit each enemy within those areas. Afterwards, place 1 ⚙ in each unoccupied square within those areas. Flashburst Shell",
+    "effect": "Metal, Fire | 15 | 05"
+  },
+  {
+    "id": "#136",
+    "name": "Flashburst Shell",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 10 squares",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Foretold/4 ] This card can only be added to a combo by paying 3 ⚙ . | Place a 5×5 area at least 3 squares away, then each enemy within that area gains a Stun counter. 39 ✦ --- PAGE 40 --- Major Styles [Red/Green] ✧ LORE BLURB [Style description] [Synergies with other styles and artefacts] STYLE NAME Included Abilities x1 Included Cards x2 x1 x1 x1 ✦ 40 --- PAGE 41 --- Minor Styles Solar Anomalies ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] SOLAR ANOMALIES Included Abilities x1 Gravitational Disturbance Included Cards x2 Ablation Cascade x1 Warping Moontide x1 Weight of the World x1 Roguestar Impact ✦ Gravitational Disturbance 2 slots Active Thrice during your turn you may place a Gravity counter on an enemy within 2 squares. During your turn, you may exploit 1 Gravity counter on an enemy within 2 squares to shift them 1-5 squares. They cannot be shifted into any square next to another character. Ablation Cascade",
+    "effect": "Metal, Fire | 15 | 05"
+  },
+  {
+    "id": "#141",
+    "name": "Ablation Cascade",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon (+1sq)",
+    "attack": " : ⸻ |",
+    "damage": " : 5 + AG or WL Automatically hit each enemy that is exactly 2 squares away. On hit : They gain a Gravity counter, and you may shift them to any square exactly 2 squares away from you. Weight of the World",
+    "effect": "Cosmic, Metal, Stone | 10 | 10"
+  },
+  {
+    "id": "#142",
+    "name": "World",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon (+1sq)",
+    "attack": " : ⸻ | dealt 15 or more",
+    "damage": " : 5 + AG or WL This card gains a +0/+1 bonus for each Gravity counter the target has up to a maximum of +0/+25. | Automatically hit a single enemy. If this they gain 2 Freeze counters. Warping Moontide",
+    "effect": "Cosmic | 10 | 10"
+  },
+  {
+    "id": "#143",
+    "name": "Warping Moontide",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon (+1sq) On hit : They gain 2 Gravity counters, then shift them 1-3 squares. On bash : They gain 2 additional Gravity counters. Roguestar Impact",
+    "attack": " : ⸻ |",
+    "damage": " : 5 + AG or WL Automatically hit 1-3 enemies within",
+    "effect": "Cosmic | 10 | 10"
+  },
+  {
+    "id": "#144",
+    "name": "Roguestar Impact",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : 2 squares or Melee Weapon (+1sq) ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] ROLLSTEAD Included Abilities x1 Packed & Prepared Included Cards x2 Lowdown Know-How x1 Rundown x1 Rollstead Ropetrick x1 Tracker’s Takedown ✦ Packed & Prepared 2 slots Hybrid One melee and one weapon of your choice each take 1 less Equipment Slot to equip to a minimum of 0. Once during your turn, you may discard a card in order to regain a single use of an equipped [ Expendable ] item. Lowdown Know-How",
+    "attack": " : D20 + AG or WL | each enemy within that area. ✦ If they are airborne, that gains a +10/+10 bonus. On hit : They become earthbound. ✦ If they were already earthbound: On Hit : They gain 2 Stun and 2 Freeze counters. 41 ✦ --- PAGE 42 --- Major Styles Blackguard’s Brutality ✧ LORE BLURB [Style description] [Synergies with other styles and artefacts] ✦ 42 --- PAGE 43 --- Minor Styles Rollstead",
+    "damage": " : 10 + AG or WL Place a 3×3 area, then",
+    "effect": "Cosmic, Stone | 10 | 10"
+  },
+  {
+    "id": "#149",
+    "name": "Lowdown Know-How",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy, then apply the relevant effect: ✦ Channeled : This gains a +5/+5 bonus if you or the target shifted this turn. ✦ Unchanneled : Before or after this resolves, you may shift 1-4 squares. Rollstead Ropetrick",
+    "damage": " : 8 + AG",
+    "effect": "Metal | 10 | 10"
+  },
+  {
+    "id": "#150",
+    "name": "Rollstead Ropetrick",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Weapon Rundown",
+    "attack": " : D20 + AG | a single enemy, then apply the relevant effect: ✦ Channeled : On hit : pull that enemy to a square next to you. ✦ Unchanneled : On hit : They gain a Stun counter.",
+    "damage": " : 10 + AG",
+    "effect": "Flora | 10 | 10"
+  },
+  {
+    "id": "#150",
+    "name": "Ranger’s Rundown",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + AG | that must be channeled. If that hits, shift 0-4 squares. | a single enemy. On hit : You gain 2 Swift counters. Tracker’s Takedown",
+    "damage": " : 12 + AG You may make a basic",
+    "effect": "Metal | 10 | 10"
+  },
+  {
+    "id": "#150",
+    "name": "Tracker’s Takedown",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : 4 squares or Weapon",
+    "attack": " : D20 + AG | that must be channeled. If that hits, this card has [ Knell/50 ]. Otherwise, it has [ Knell/25 ]. | a single enemy. 43 ✦ --- PAGE 44 --- Major Styles [Blue] ✧ LORE BLURB [Style description] [Synergies with other styles and artefacts] Ice terrain object mage? STYLE NAME Included Abilities x1 Included Cards x2 x1 x1 x1 ✦ DDD 1 slot DDD DDD DDD ✦ 44 --- PAGE 45 --- Minor Styles Starﬂare Raider ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] STARFLARE RAIDER Included Abilities x1 Faster than Light Included Cards x2 Pulsar Charge x1 Nova Overload x1 Blinkwarp x1 Arcanokinetic Impact ✦ Faster than Light 1 slot Active Whenever you teleport and intentionally bash into an enemy, if it was the first time bashing into them this turn, deal 5 Physical, Cosmic, and Light-type",
+    "damage": " : 10 + AG You may make a basic melee to them. Whenever you willingly shift, you may teleport that many squares instead. Pulsar Charge",
+    "effect": "Flora | 10 | 10"
+  },
+  {
+    "id": "#157",
+    "name": "Pulsar Charge",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. This card gains a +1/+1 bonus for every square teleported with it. Blinkwarp",
+    "damage": " : 2 + MT or WL [ Piercing ] Teleport 1-10 squares, then",
+    "effect": "Cosmic, Light, Void | 15 | 05"
+  },
+  {
+    "id": "#158",
+    "name": "Blinkwarp",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : Teleport 1-3 squares. Nova Overload",
+    "damage": " : 2 + MT or WL If you teleported 25 or more squares this turn, this card gains [ Trick ] for the rest of the round. | Teleport 1-3 squares, you may then",
+    "effect": "Cosmic, Light, Void | 15 | 05"
+  },
+  {
+    "id": "#158",
+    "name": "Nova Overload",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon Arcanokinetic Impact",
+    "attack": " : ⸻ |",
+    "damage": " : 2 + MT or WL This card gains a +0/+1 bonus for every square you have teleported so far this turn up to a maximum of +0/+10. | Automatically hit each enemy within",
+    "effect": "Cosmic, Light, Void | 15 | 05"
+  },
+  {
+    "id": "#158",
+    "name": "Arcanokinetic Impact",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Three other cards",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or WL | a single enemy. On hit : Shift them X squares in a straight line where X is how many squares you have teleported so far this turn. On bash : That enemy and any enemy they bashed into take",
+    "damage": " : 12 + MT or WL equal to the remaining distance. 45 ✦ --- PAGE 46 --- Major Styles Mementos of War ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] MEMENTOS OF WAR Included Abilities x1 Cycle of Violence Included Cards x2 Corroding Flurry x1 Ruination Edge x1 Tetanic Malediction x1 Lingering Will ✦ Cycle of Violence 1 slot Active You may expend Strike tokens as Empower counters. Whenever you down an enemy, gain a Strike/10 token. Corroding Flurry",
+    "effect": "Cosmic, Light, Void | 15 | 05"
+  },
+  {
+    "id": "#161",
+    "name": "Corroding Flurry",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon On hit : They gain a Poison, Expose, or Weaken counter. Tetanic Maledicion",
+    "attack": " : D20 + MT or AG | each enemy within that area from any",
+    "damage": " : 7 + MT or AG As an additional cost, you may expend a Strike token. | Place a 3×1 area, or a 3×3 area if you paid the cost, then",
+    "effect": "Metal, Spirit, Toxic | 15 | 05"
+  },
+  {
+    "id": "#162",
+    "name": "Tetanic Maledicion",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 2 squares or Melee Weapon (+1sq)",
+    "attack": " : D20 + MT or AG | a single enemy. On hit : You may exploit one of their negative status counters as two Poison counters. Repeat the on hit effect once for every Strike token expended on this card. Ruination Edge",
+    "damage": " : 7 + MT or AG As an additional cost, you may expend up to 2 Strike tokens. |",
+    "effect": "Metal, Spirit, Toxic | 15 | 05"
+  },
+  {
+    "id": "#163",
+    "name": "Ruination Edge",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon (+2sq)",
+    "attack": " : D20 + MT or AG | a single enemy. On hit : If this card dealt 20 or more",
+    "damage": " : 10 + MT or AG If the target isn’t [ Bloodied ], this card gains a +0/+10 bonus. | you gain a Strike/10 token, and they gain a Poison, Expose, or Weaken counter. Lingering Will",
+    "effect": "Metal, Spirit, Toxic | 15 | 05"
+  },
+  {
+    "id": "#164",
+    "name": "Lingering Will",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT or AG | a single enemy, then summon a Rusted Soldier with 1 ★ , or 2 ★ if played as part of a combo. | [ Pitch ] A single minion you control within 5 squares gains 2 ★ and you gain a Strike/10 token. RUSTED SOLDIER Minion, Regular, Spirit, Warrior Combat Defence HP MV Upkeep 3 12 15 6 4 Shared Purpose : You have access to your controller’s Strike tokens, and may expend Strike tokens as Empower counters. Strength Passes On : When you are downed, an ally within 5 squares gains 2 Surge counters. You are then removed from the battlefield. Command : Discard a card to grant 1 ★ . Pay 1 ★ Make a Rusted Slash Pay 2 ★ Your controller gains a Strike/10 token. RUSTED SLASH Magical, Metal, Spirit, Toxic a single enemy. On hit : They gain a Poison, Expose, or Weaken counter. ✦ 46 --- PAGE 47 --- Minor Styles Knave of Negation ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] KNAVE OF NEGATION Included Abilities x1 Sleeve of Surprises Included Cards x2 Arcane Reversal x1 Illusory Court x1 Fool’s Diminuendo x1 Knight’s Folly ✦ Sleeve of Surprises 2 slots Hybrid You may always look at the top card of your deck. If it's a standard card, treat it as if it had [ Protect/4 ]. Thrice per round, if the top card of your deck has [ Protect ], you may use it to protect as if it were in your hand. If that card parries an you may play it as a [ Trick ]. Arcane Reversal",
+    "damage": " : 10 + MT or AG [ Cantrip ][ Opener ] Melee D20 + 3 7 + 3",
+    "effect": "Metal, Spirit, Toxic | 15 | 05"
+  },
+  {
+    "id": "#165",
+    "name": "Arcane Reversal",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Any Weapon",
+    "attack": " : ⸻ | you may play it as a [ Trick ]. | Automatically hit a single enemy, then draw a card. Fool’s Diminuendo",
+    "damage": " : 12 + AG or WL [ Protect/4 ] If this card parries an",
+    "effect": "Mind, Light | 10 | 10"
+  },
+  {
+    "id": "#166",
+    "name": "Fool’s Diminuendo",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Any Weapon",
+    "attack": " : D20 + AG or WL | a single enemy. On hit : They halve the amount of they make. If they aren’t they gain a Weaken counter instead. Illusory Court",
+    "damage": " : 7 + AG or WL [ Protect/4 ] Whenever an enemy performs a multi-attack, this card has [ Trick ]. |",
+    "effect": "Mind, Light | 10 | 10"
+  },
+  {
+    "id": "#167",
+    "name": "Illusory Court",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Any Weapon",
+    "attack": " : ⸻ | you may play it as a [ Trick ]. | Place a 5×5 area with 50 armour points. Whenever an ally within that area is by an enemy outside of it, they treat the area’s armour points as their own when determining",
+    "damage": " : ⸻ [ Cantrip ][ Protect/4 ] If this card parries an Knight’s Folly",
+    "effect": "Mind, Light | 10 | 10"
+  },
+  {
+    "id": "#168",
+    "name": "Knight’s Folly",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Any Weapon",
+    "attack": " : D20 + AG or WL | this card has [ Trick ]. | a single enemy. On hit : You may shift them 1-3 squares. If you didn’t, they gain an Expose counter instead. 47 ✦ --- PAGE 48 --- Major Styles Legionary Talents ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] LEGIONARY TALENTS Included Abilities x1 Soldier’s Regimen Included Cards x2 Soldier’s Stratagem x1 Manipular Engagement x1 Cohort’s Advance x1 Will of the Legion ✦ Soldier’s Regimen 1 slot Passive You gain one additional equipment slot that counts as two if it's only used to equip armour. You may expend Guard tokens and cards in your hand as if they had [ Protect/1 ]. Soldier’s Stratagem",
+    "damage": " : 7 + AG or WL [ Protect/4 ] Whenever an enemy performs a melee",
+    "effect": "Mind, Light | 10 | 10"
+  },
+  {
+    "id": "#169",
+    "name": "Soldier’s Stratagem",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. On hit : You gain a Strike/10 token. ✦ Shield : You gain a Guard/10 token, then shift 0-3 squares. Cohort’s Advance",
+    "damage": " : 10 + MT As an additional cost, you may discard a card. | Choose Sword or Shield. If you paid the cost, resolve both choices in any order: ✦ Sword :",
+    "effect": "Metal, Body | 10 | 10"
+  },
+  {
+    "id": "#170",
+    "name": "Cohort’s Advance",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. ✦ Slam : a single enemy. This gains a +0/+5 bonus if you have 3 or more Guard tokens. Manipular Engagement",
+    "damage": " : 10 + MT Choose Charge or Slam. If this is the first or last card in the combo, resolve both choices in any order: ✦ Charge : Shift 1-6 squares in a straight line, then",
+    "effect": "Metal, Body | 10 | 10"
+  },
+  {
+    "id": "#171",
+    "name": "Manipular Engagement",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 4 squares or Any Weapon (+1sq) gains a Guard/10 token. Will of the Legion",
+    "attack": " : D20 + MT | a single enemy, then shift 0-3 squares. ✦ Defend : You and up to one other ally within",
+    "damage": " : 10 + MT Choose Skirmish or Defend. If this is the first or last card in the combo, resolve both choices in any order: ✦ Skirmish : Shift 0-3 squares, then",
+    "effect": "Metal, Body | 10 | 10"
+  },
+  {
+    "id": "#172",
+    "name": "Legion",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Self",
+    "attack": " : ⸻ | you may make a basic against the with “ On hit : You gain a Guard/10 token”. At the end of each round, you may discard a card. If you don't, this enchantment wears off. ✦ 48 --- PAGE 49 --- Minor Styles Duskheart Rogue ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] DUSKHEART ROGUE Included Abilities x1 Wretch Reflexes Included Cards x2 Duskheart Strike x1 Duskheart Finale x1 Scoundrel’s Gambit x1 Shroud of Darkness ✦ Wretch Reflexes 1 slot Hybrid Enemy area that target you automatically miss. Whenever an misses you, you may shift 1 square. Duskheart Strike",
+    "damage": " : ⸻ [ Opener ] [ Cantrip ] [ Enchant Self ] Whenever you are",
+    "effect": "Mind, Body, Spirit | 10 | 10"
+  },
+  {
+    "id": "#173",
+    "name": "Duskheart Strike",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy, then shift 0-3 squares. If they are [ Vulnerable ], this card gains a +0/+7 bonus and automatically hits. Scoundrel’s Gambit",
+    "damage": " : 5 + AG Shift 0-3 squares, then",
+    "effect": "Dark, Toxic | 15 | 05"
+  },
+  {
+    "id": "#174",
+    "name": "Scoundrel’s Gambit",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. On hit : Until the start of your next turn, that enemy becomes [ Vulnerable ] and they cannot guard, heal, or be protected. Duskheart Finale",
+    "damage": " : 10 + AG",
+    "effect": "Dark, Toxic | 15 | 05"
+  },
+  {
+    "id": "#175",
+    "name": "Duskheart Finale",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : Two other cards |",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + AG | misses you, you may play this card as a [ Trick ] ignoring its a single enemy. If they are [ Vulnerable ], them thrice instead. On hit : They gain a Poison or Expose counter. Shroud of Darkness",
+    "damage": " : 10 + AG Whenever an",
+    "effect": "Dark, Toxic | 15 | 05"
+  },
+  {
+    "id": "#176",
+    "name": "Darkness",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Self",
+    "attack": " : ⸻ | targeting you from 3 or more squares away suffer a -5/+0 penalty. At the end of each round, you may discard a card. If you don't, this enchantment wears off. 49 ✦ --- PAGE 50 --- Major Styles Saga of Heroes ✦ LORE BLURB [Style description] [Synergies with other styles and artefacts] SAGA OF HEROES Included Abilities x1 Fate’s Flux Included Cards x2 Omen of Anticipation x1 Impending Conclusion x1 Tragedy Strikes x1 The Sword Looms ✦ Fate’s Flux 1 slot Active At the start of your turn, you may increase the timer of a single [ Foretold ] card by 1-2 turns. Once during your turn, you may discard a card to decrease the timer of one [ Foretold ] card by 1-2 turns. If this would set the timer to 0, it resolves immediately instead. Omen of Anticipation",
+    "damage": " : ⸻ [ Cantrip ] [ Enchant Self ]",
+    "effect": "Dark, Toxic | 15 | 05"
+  },
+  {
+    "id": "#177",
+    "name": "Anticipation",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 6 squares or Weapon",
+    "attack": " : D20 + WL | each area within that area. On hit : Shift them 0-3 squares. Tragedy Strikes",
+    "damage": " : 10 + WL Place a 3×3 area, then",
+    "effect": "Time, Cosmic | 15 | 05"
+  },
+  {
+    "id": "#178",
+    "name": "Tragedy Strikes",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 6 squares or Weapon",
+    "attack": " : ⸻ |",
+    "damage": " : 10 + WL [ Foretold/5 ] This card automatically fails to resolve if it wasn’t [ Foretold ]. | Place a 3×3 area, then automatically hit each enemy within that area. At the start of the next round, reset the timer to 5 and choose one option: ✦ Increase the size of the area by +1sq×+1sq. ✦ Move the area 1-6 squares. ✦ Increase the base by +10. Impending Conclusion",
+    "effect": "Time, Cosmic | 15 | 05"
+  },
+  {
+    "id": "#179",
+    "name": "Impending Conclusion",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : Two other cards",
+    "range": " : 6 squares or Weapon",
+    "attack": " : D20 + WL |",
+    "damage": " : 7 + WL Place a 5×5 area, then automatically hit each enemy within that area. Afterwards, you may shift any character within that area to any other square in that area. The Sword Looms",
+    "effect": "Time, Cosmic | 15 | 05"
+  },
+  {
+    "id": "#180",
+    "name": "The Sword Looms",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 6 squares or Weapon",
+    "attack": " : ⸻ | that automatically hits that enemy. ✦ Arcane Fortitude X slots Passive You gain +X base maximum HP where X is ten x the number of Ability Slots invested in this ability. ✦ Radiant Strength 1 slot Active At the start of each round, you gain 1 Empower, 1 Swift, 1 Surge, or 1 Haste counter. (3 more) 51 ✦ --- PAGE 52 --- Arcanist Artes Red Artes (5/10) Rune of Vitality",
+    "damage": " : 50 + WL [ Foretold/5 ] [ Knell/50 ] This card automatically fails to resolve if it wasn’t [ Foretold ]. | Place a 1×1 area that can’t have its size modified, then automatically hit a single enemy within that area. ✦ 50 --- PAGE 51 --- Arcanist Artes ARCANIST ARTES The arcanist artes represent universally useful spells usually taught to mage apprentices during their studies in the academy. During character creation, you may exchange any spare cards at a 1:1 ratio for any cards from the Arcanist Artes. Dae’s Gambit By channeling the chaos flame of the Forgestar Dae, one is able to draw upon a wide variety of magic they may not normally have access to. During character creation, you may spend 1 or more style points to choose any style and gain 5 copies of any cards from that style. You may choose to gain multiple copies of the same card. Additionally, each time you make Dae’s Gambit, you gain access to one of Dae’s Boons. Dae’s Boons ✦ Midnight Sun 1 slot Active Once per turn whenever you cause an enemy to bash into an ally, that ally may draw a card, then make a basic",
+    "effect": "Time, Cosmic | 15 | 05"
+  },
+  {
+    "id": "#000",
+    "name": "Vitality",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Protect/5 ] [ Trick ] Heal a single ally for 20 HP. If played during your turn, they also gain 2 Surge counters. Painful Return",
+    "effect": "Body, Stone | 10 | 10"
+  },
+  {
+    "id": "#000",
+    "name": "Painful Return",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + MT | a single enemy. If you are [ Bloodied ], it gains a +5/+5 bonus and has [ Piercing ] and [ Overwhelm ]. All or Nothing",
+    "damage": " : 7 + MT",
+    "effect": "Mind, Body, Spirit | 15 | 05"
+  },
+  {
+    "id": "#000",
+    "name": "Nothing",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Self",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Cantrip ] The first time you play this card each turn, draw 2 cards. | You gain 1 Empower, 1 Swift, 1 Surge, and 1 Haste counter. At the end of your turn, discard your hand. Circuitous Stoneworks",
+    "effect": "Mind, Body, Spirit | 20 | 0"
+  },
+  {
+    "id": "#000",
+    "name": "Circuitous Stoneworks",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares Then if you control three or more objects, you may summon a Maze Guardian with 1 ★ next to any object you control on the battlefield. LABYRINTH WALL Object, Stone 20 HP You occupy a 1×3 space and block line of sight. Magic Maze : When placing a Labyrinth Wall , it must always have at least two ways out. Additionally, characters who bash into a Labyrinth Wall suffer 5 Physical and Stone-type",
+    "attack": " : ⸻ | STONE SLAM Physical, Stone a single enemy. On hit : Shift them 0-3 squares. Ruﬃan’s Rebuke",
+    "damage": " : ⸻ [ Cantrip ] Ignoring line of sight, place two Labyrinth Wall objects within MAZE GUARDIAN Minion, Elite, Stone, Construct Combat Defence HP MV Upkeep 3 10 50 0 5 In the Walls : You ignore line of sight and may occupy the same square as an object. At the end of each turn, if you are not next to an object, sacrifice yourself. Stone Sentinel : At the end of each round, if you were not commanded that round, you gain 1 ★ . Command : Discard a card to grant 1 ★ . Free Once during your turn, teleport to any square adjacent to an object. Pay 1 ★ Make a Stone Slam Melee D20 + 3 7 + 3",
+    "effect": "Stone, Spirit | 20 | 0"
+  },
+  {
+    "id": "#000",
+    "name": "Ruﬃan’s Rebuke",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares",
+    "attack": " : D20 + MT | a single enemy. On hit : Until the end of the round, whenever that enemy you, you may repeat this effect targeting them. | [ Pitch ] [ Slow ] Taunt an enemy within 5 squares. Notably, the effects of Ruffian’s Rebuke stack with each subsequent hit, punishing an enemy that is perhaps focusing too much on you. ✦ 52 --- PAGE 53 --- Arcanist Artes Green Artes (5/10) Ivy Fetters",
+    "damage": " : 10 + MT [ Protect/2 ]",
+    "effect": "Body, Mind, Spirit | 10 | 10"
+  },
+  {
+    "id": "#000",
+    "name": "Ivy Fetters",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Melee Weapon",
+    "attack": " : D20 + AG | a single enemy. On hit : They gain 1 Stun counter. If you down this enemy this turn, remove them from the battlefield. Deeproot Lash",
+    "damage": " : 5 + AG [ Knell/20 ]",
+    "effect": "Flora | 15 | 05"
+  },
+  {
+    "id": "#000",
+    "name": "Deeproot Lash",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 3 squares or Weapon by 1-5 squares. On bash : Automatically hit them and any enemy they bashed into from any Bidented Bolt",
+    "attack": " : ⸻ |",
+    "damage": " : 8 + AG Shift a single enemy within",
+    "effect": "Flora | 15 | 05"
+  },
+  {
+    "id": "#000",
+    "name": "Bidented Bolt",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon",
+    "attack": " : D20 + AG | two enemies within 2 squares of each other. If this is the first or last card in the combo, it automatically hits and gains [ Piercing ]. Legerdemaid",
+    "damage": " : 10 + AG",
+    "effect": "Flora | 15 | 05"
+  },
+  {
+    "id": "#000",
+    "name": "Legerdemaid",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Protect/5 ] [ Trick ] When played, choose one: ✦ A single enemy gains 2 Splash counters. ✦ Cleanse target character of all status counters. ✦ Remove all enchantments on target character. ✦ Remove target object from the battlefield. ✦ Remove target lingering area from the battlefield. Shattering Descent",
+    "effect": "Wind, Water | 10 | 10"
+  },
+  {
+    "id": "#000",
+    "name": "Shattering Descent",
+    "types": [
+      "Physical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : Melee or Melee Weapon 53 ✦ --- PAGE 54 --- Arcanist Artes Blue Artes (4/10) Rote Sorcery",
+    "attack": " : D20 + AG | each enemy within that area from any",
+    "damage": " : 7 + AG If you are airborne, you become earthbound, and this card gains a +3/+3 bonus and [ Overwhelm ]. | Place a bound 3×3 area, then",
+    "effect": "Wind, Stone | 15 | 05"
+  },
+  {
+    "id": "#000",
+    "name": "Rote Sorcery",
+    "types": [
+      "Magical"
+    ],
+    "primaryCost": 10,
+    "secondaryCost": 5,
+    "requirements": " : ⸻",
+    "range": " : Self",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Cantrip ] When played, choose an option you haven’t picked yet this turn. Then if this is the third time you have played this card this turn, remove all copies of it from your deck until the end of combat and draw two cards. ✦ Draw a card. ✦ Discard a card, then gain a Haste counter. ✦ Take a free Illuminate action ignoring soul states. Gleamstone Burst",
+    "effect": ""
+  },
+  {
+    "id": "#000",
+    "name": "Gleamstone Burst",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 1 square or Melee Weapon On hit : If you are [ Bright ], they gain a Stun counter. | [ Pitch ] [ Slow ] Take a free Illuminate action ignoring soul states. Localized Chronoﬂux",
+    "attack": " : ⸻ |",
+    "damage": " : 2 + WL [ Cantrip ] Automatically hit each enemy within",
+    "effect": "Light, Stone | 10 | 05"
+  },
+  {
+    "id": "#000",
+    "name": "Localized Chronoﬂux",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares",
+    "attack": " : ⸻ |",
+    "damage": " : ⸻ [ Trick ] When played, choose one: ✦ A single ally gains a Haste counter. ✦ A single enemy gains a Stun counter. ✦ Choose up to 3 enemies whose turn just started, delay their turns until after the next allied turn, or the end of the round. ( Whichever is first. ) Voice of Guidance",
+    "effect": "Time | 10 | 10"
+  },
+  {
+    "id": "#000",
+    "name": "Guidance",
+    "types": [
+      "Magical",
+      ""
+    ],
+    "requirements": " : ⸻",
+    "range": " : 5 squares or Any Weapon 6 squares Channeled 4 squares Channeled instead. Helmet of Sublimity LORE (DWARF) ◉ Helmet of Sublimity 1 slot +0 bonus to Defence [ Head Armour ] You start each round with 10 armour points that last until the end of the round. ✦ Dwarvish Perfection Helmet of Sublimity, Hybrid Whenever an 1 square Channeled ✦ This counts as having shifted only 1 square. ✦ 58 --- PAGE 59 --- Arcanist Artes Immortal Elixir LORE (HUMAN+STARFOLK+human princess stole starfolk elixir from Spinel) ◉ Immortal Elixir 1 slot 1 square [ Expendable/3 ] [ Slow ] When expended, choose one: ✦ Heal an ally within for 40 HP ✦ Cleanse an ally of all negative status counters. ✦ An ally gains a +3/+3 bonus to all",
+    "attack": " : D20 + WL | a single enemy. On hit : Up to three minions you control within 5 squares each gain 1 ★ . | [ Pitch ] A single minion you control within 5 squares gains 2 ★ . ✦ 54 --- PAGE 55 --- Arcanist Artes ARTEFACTS The artefacts presented in this compendium are mere vestiges of the true power of the original artefact. Any mage worth their salt could manifest a fragment of Excalibur, but only one may truly wield the legendary blade. Artefacts are incredibly powerful magic items that can only be used by performing a vestige ritual, and bonding one’s soul to the artefact that is conjured. During character creation, you gain 2 points to obtain artefacts. Each major artefact costs 2 points, and each minor artefact costs 1 point. Artefacts act as both items and abilities, and can be equipped by using your Equipment Slots, Ability Slots, or any combination of both. As long as the artefact is equipped, you automatically equip its associated artefact ability at no additional cost. 6/15 major artefacts | 7/15 minor artefacts 9/14 weapons, 1/8 trinkets, 2/8 armour Human 2/2 | Elf 0/2 Svartal 1/2 | Charme 0/2 Merfolk 1/2 | Starfolk 2/2 Dragon 1/2 | Daemon 1/2 Dwarf 1/? Critical artefact. Bloodied-matters artefact. Foretold-matters/giver artefact. Bard pitch artefact 55 ✦ --- PAGE 56 --- Artefacts Major Artefacts (6/15) Arms of Kephalid LORE (MERFOLK) ◉ Arms of Kephalid 1 slot Melee, 1 square Channeled gain the Water-type and have “ On hit : They gain a Splash counter.” ✦ Tendrils of the Deep Arms of Kephalid, Hybrid You gain four additional armour slots that cannot be used to equip armour. Up to four times during your turn, you may exploit a Splash counter on an enemy. If you do, shift them 1-4 squares. On bash : They suffer 10 Magical and Water-type gain a +1/+1 bonus. ✦ Audaces Fortuna Iuvat Champion’s Cestus, Active Whenever you are by an enemy you are taunting, you may guard against it as if you spent a Guard/5 token. Whenever you parry a melee you may choose “ Pugnus! ” or “ Iactus! ”. If you are taunting the parried enemy, you may resolve both choices in any order: ✦ Pugnus! : Make a basic melee against the ✦ Iactus! : Push the 0-3 squares away. On bash : They gain a Stun counter. Dirk of Doubling LORE (~~~) ◉ Dirk of Doubling 1 slot Melee, 1 square Channeled gain [ Piercing ]. ✦ Doubling Rites Dirk of Doubling, Active Once during your turn, you may choose two cards from your hand. The first card becomes a copy of the second card until the end of the turn. Once during your turn, you may discard two cards and choose a minion next to you. If you do, summon a copy of that minion with 1 ★ and 0 Upkeep. ✦ This ability cannot be activated if you currently control a minion copied by Doubling Rites. Orbital Plates LORE (STARFOLK) ◉ Orbital Plates 3 slots +2 bonus to Defence [ Body Armour ] You start each round with 20 armour points that last until the end of the round. ✦ Steel Pattern Matrix Orbital Plates, Active At the start of your turn, you may choose up to three cards in your hand. Increase the Guard value of those cards by +5, they each gain [ Protect/X ] where X is their Guard value. ✦ 56 --- PAGE 57 --- Arcanist Artes Revelblade LORE (CHARME) ◉ Revelblade 1 slot Melee, 1 square Once per turn, fix a channeled as if you spent a Strike/20 token. ✦ Schismbreaker Revelblade, Passive At the start of combat, reveal your deck. If you reveal at least 5 cards of each colour, you gain a +2 bonus to Might, Agility, Will, and Defence that lasts until the end of combat. When forming a combo, increase your combo limit by +1 card as long as it contains at least 2 cards of each colour. Sceptre of Smithshot LORE (SVARTAL) ◉ Sceptre of Smithshot 2 slots Melee, 1 square & gain [ Piercing ]. ✦ Warning! Blast Zone! Sceptre of Smithshot, Hybrid Whenever you play an area card, you gain 2 ⚙ . Whenever you place an area of effect, you may pay 2 ⚙ or 4 ⚙ . If you do, increase the size of that area by +1sq×+1sq or +2sq×+2sq respectively. 57 ✦ --- PAGE 58 --- Artefacts Minor Artefacts (7/15) Foehammer LORE (DAEMON) ◉ Foehammer 1 slot gain [ Piercing ] and [ Overwhelm ]. ✦ Brimstone Chamber Foehammer, Passive If you channel the last card in your combo through the Foehammer, it gains the following benefits: ✦ Up to six of that card’s automatically hit. ✦ Each gains a +6/+6 bonus. ✦ If it's the 6th round or greater, each gains a +13/+13 bonus instead. Godlight Greatsword LORE (STARFOLK) ◉ Godlight Greatsword 2 slots Melee, 1 square Channeled gain a +2/+2 bonus. ✦ Empyrean Might Godlight Greatsword, Hybrid At the start of combat, and each time you Illuminate, the Godlight Greatsword gains 1 charge. Whenever you play a card channeled by the Godlight Greatsword that only targets a single enemy, you may expend a charge on it. If you do, place a bound 3×3 area and each enemy within that area from any misses, you may automatically hit that enemy for half gain a +3/+3 bonus against enemies who are stunned, frozen, or who have a Dream mark. ✦ Dream Barrier Breach Hypnagogic Mirror, Active At the start of each round, choose any three enemies on the battlefield without a Dream mark. The GM then places a Dream mark on one of those enemies. [ Movement ] During your turn, you may spend 3 movement points to teleport next to any enemy who is stunned, frozen, or who has your Dream mark from any until the start of your next turn. ( This effect doesn’t stack. ) ✦ Spinel’s Endlessness Immortal Elixir, Active Once per turn whenever you play a card that doesn’t target an enemy, you may regain one use of the Immortal Elixir. Skybreaker Edge LORE (DRAGON) ◉ Skybreaker Edge 1 slot Melee, 1 square Channeled gain [ Knell/10 ]. ✦ Lightning Frequency Skybreaker Edge, Active Whenever you down an enemy with an channelled by the Skybreaker Edge, automatically hit a single enemy within 5 squares for 15 Magical and Shock-type have “ On hit : You may shift 1 square”. ✦ Stallion of the Skies Spellracer, Active [ Movement ] During your turn while airborne, you may spend 1 movement point to move 1 square. If by the end of your turn you moved a total of 20 or more squares, you gain 2 Haste, 2 Empower, and 2 Swift counters. 59 ✦",
+    "damage": " : 5 + WL Champion’s Cestus LORE (HUMAN) ◉ Champion’s Cestus 1 slot Melee, 1 square [ Shield ] Channeled instead. Your maximum HP cannot be reduced. Hypnagogic Mirror LORE (CHARME-NOCTARCH) ◉ Hypnagogic Mirror 1 slot Melee, 1 square & with [ Knell/10 ] Spellracer LORE (HUMAN) ◉ Spellracer 2 slots Melee, 1 square Channeled",
+    "effect": "Sound | 10 | 10"
+  }
+]

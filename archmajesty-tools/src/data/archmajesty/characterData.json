@@ -1,0 +1,44 @@
+{
+  "attributes": {
+    "primary": [
+      "Might",
+      "Agility",
+      "Will",
+      "Defence"
+    ],
+    "starting_points": 8,
+    "max_per_attribute": 3
+  },
+  "base_stats": {
+    "health": 50,
+    "defence": 10,
+    "movement": 6,
+    "equipment_slots": 5,
+    "ability_slots": 5,
+    "command_capacity": 10
+  },
+  "creation_bonuses": [
+    {
+      "type": "health",
+      "value": 25
+    },
+    {
+      "type": "equipment_slot",
+      "value": 1
+    },
+    {
+      "type": "ability_slot",
+      "value": 1
+    },
+    {
+      "type": "command_capacity",
+      "value": 2
+    }
+  ],
+  "style_points": 6,
+  "artefact_points": 2,
+  "deck_rules": {
+    "minimum_cards": 21,
+    "max_copies": 3
+  }
+}
