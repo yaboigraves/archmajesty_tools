@@ -12,7 +12,9 @@
       "Bash(pkill:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
-      "Bash(pip3 install:*)"
+      "Bash(pip3 install:*)",
+      "Bash(python:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }

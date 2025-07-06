@@ -1,88 +1,13 @@
 import type { SpellCard, MajorStyle, Character, Equipment } from '../../types/archmajesty';
 import { GAME_CONSTANTS } from '../../types/archmajesty';
+import spellCardsData from './spellCards.json';
 
-// Sample spell cards from the Arcane Compendium
-// Full extraction shows 210 total cards across different styles
-export const spellCards: SpellCard[] = [
-  // Earthsteel Warrior cards
-  {
-    id: '#001',
-    name: 'Earthsteel Bash',
-    types: ['Physical', 'Stone', 'Metal'],
-    primaryCost: 10,
-    secondaryCost: 10,
-    range: 'Melee or Melee Weapon',
-    attack: 'D20 + MT',
-    damage: '10 + MT',
-    effect: 'Attack a single enemy.',
-    onHit: 'Push them 0-2 squares away.',
-    onBash: 'They suffer an additional 5 + MT damage.'
-  },
-  {
-    id: '#002',
-    name: 'Earthsteel Rush',
-    types: ['Physical', 'Stone', 'Metal'],
-    primaryCost: 10,
-    secondaryCost: 10,
-    range: 'Melee or Melee Weapon',
-    attack: 'D20 + MT',
-    damage: '10 + MT',
-    effect: 'Shift 0-3 squares, then attack a single enemy.',
-    onHit: 'Carry them 0-3 squares.',
-    onBash: 'They gain 2 Weaken counters and you gain 2 Empower counters.'
-  },
-  {
-    id: '#003',
-    name: 'Pommel Pummel',
-    types: ['Physical', 'Stone', 'Metal'],
-    primaryCost: 10,
-    secondaryCost: 10,
-    range: 'Melee or Melee Weapon',
-    damage: '7 + MT',
-    effect: 'Automatically hit a single enemy.',
-    onHit: 'They gain a Stun counter.'
-  },
-  {
-    id: '#004',
-    name: 'Earthsteel Fracture',
-    types: ['Physical', 'Stone', 'Metal'],
-    primaryCost: 15,
-    secondaryCost: 5,
-    range: 'Melee or Melee Weapon',
-    damage: '7 + MT',
-    effect: '[Piercing] Place three Boulder objects within 5 squares, then for each Boulder within 5 squares, automatically hit a different enemy next to that Boulder from any range.'
-  },
-  
-  // Trickgale Aerialist cards
-  {
-    id: '#010',
-    name: 'Cloudstep Rush',
-    types: ['Physical', 'Wind'],
-    primaryCost: 15,
-    secondaryCost: 5,
-    range: 'Melee or Melee Weapon',
-    attack: 'D20 + AG',
-    damage: '10 + AG',
-    effect: 'Shift 1-6 squares, then attack a single enemy.',
-    pitchEffect: 'Gain 2 Swift counters.'
-  },
-  {
-    id: '#011',
-    name: 'Dragonhawk Dive',
-    types: ['Physical', 'Wind'],
-    primaryCost: 15,
-    secondaryCost: 5,
-    requirements: 'You must be airborne',
-    range: '2 squares or Melee Weapon (+1sq)',
-    attack: 'D20 + AG',
-    damage: '15 + AG',
-    effect: 'Shift 0-4 squares, then attack a single earthbound enemy.',
-    pitchEffect: 'Gain 2 Swift counters.'
-  },
-  
-  // More cards would be added here...
-  // The game has 210 total cards
-];
+// Import all spell cards from the extracted JSON data
+export const spellCards: SpellCard[] = spellCardsData as SpellCard[];
+
+// Debug log
+console.log('Loaded spell cards from JSON:', spellCards.length);
+console.log('First few cards:', spellCards.slice(0, 3));
 
 // Major Styles (character archetypes)
 export const majorStyles: MajorStyle[] = [

@@ -90,7 +90,8 @@ export interface Equipment {
   id: string;
   name: string;
   slots: number;
-  type: 'weapon' | 'armor' | 'gear';
+  type: 'weapon' | 'armor' | 'trinket';
+  subtype?: 'melee' | 'ranged'; // For weapons
   weaponRange?: string; // For weapons
   effect?: string;
 }

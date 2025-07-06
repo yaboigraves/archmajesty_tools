@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Cache</title>
+</head>
+<body>
+    <h1>Clearing LocalStorage...</h1>
+    <script>
+        // Clear all localStorage
+        localStorage.clear();
+        sessionStorage.clear();
+        
+        // Clear caches
+        if ('caches' in window) {
+            caches.keys().then(names => {
+                names.forEach(name => {
+                    caches.delete(name);
+                });
+            });
+        }
+        
+        document.body.innerHTML = '<h1>Cache cleared! Now go back to <a href="http://localhost:5173">http://localhost:5173</a></h1>';
+    </script>
+</body>
+</html>

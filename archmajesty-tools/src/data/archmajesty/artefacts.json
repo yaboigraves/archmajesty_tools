@@ -1,0 +1,66 @@
+[
+  {
+    "id": "artefact_1",
+    "name": "Sunstone Amulet",
+    "type": "artefact",
+    "cost": 2,
+    "slots": 1,
+    "effect": "At the start of each round, gain 1 Empower counter. When you channel a Light spell, you may exploit an Empower counter to gain [Overwhelm] on that attack."
+  },
+  {
+    "id": "artefact_2",
+    "name": "Windwalker Boots",
+    "type": "artefact",
+    "cost": 2,
+    "slots": 1,
+    "effect": "You gain +2 Movement Points. When you become airborne, gain 1 Swift counter."
+  },
+  {
+    "id": "artefact_3",
+    "name": "Earthshaper's Ring",
+    "type": "artefact",
+    "cost": 1,
+    "slots": 0,
+    "effect": "Your Stone and Metal spells gain +2 damage. You cannot be moved by enemy effects while earthbound."
+  },
+  {
+    "id": "artefact_4",
+    "name": "Phoenix Feather Cloak",
+    "type": "artefact",
+    "cost": 3,
+    "slots": 2,
+    "effect": "Once per combat, when you would be reduced to 0 HP, instead heal to 25% of your max HP and gain 2 Surge counters."
+  },
+  {
+    "id": "artefact_5",
+    "name": "Voidcaller's Grimoire",
+    "type": "artefact",
+    "cost": 2,
+    "slots": 1,
+    "effect": "Once per turn, when you play a Shadow spell, you may discard a card to draw 2 cards."
+  },
+  {
+    "id": "artefact_6",
+    "name": "Stormforged Gauntlets",
+    "type": "artefact",
+    "cost": 2,
+    "slots": 1,
+    "effect": "Your melee attacks gain [Piercing]. When you bash with a Physical spell, create a shockwave that pushes all adjacent enemies 1 square away."
+  },
+  {
+    "id": "artefact_7",
+    "name": "Mystic Prism",
+    "type": "artefact",
+    "cost": 1,
+    "slots": 1,
+    "effect": "Once per round, you may change one type of a spell card in your hand to any other type until end of turn."
+  },
+  {
+    "id": "artefact_8",
+    "name": "Titan's Belt",
+    "type": "artefact",
+    "cost": 2,
+    "slots": 1,
+    "effect": "You gain +25 Max HP. You cannot be afflicted with Weaken counters."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "consumable_1",
+    "name": "Health Potion",
+    "type": "consumable",
+    "uses": 1,
+    "effect": "[Expendable] Heal yourself or an adjacent ally for 25 HP."
+  },
+  {
+    "id": "consumable_2",
+    "name": "Stamina Draught",
+    "type": "consumable",
+    "uses": 1,
+    "effect": "[Expendable] Gain 3 movement points and remove all Slow counters."
+  },
+  {
+    "id": "consumable_3",
+    "name": "Smoke Bomb",
+    "type": "consumable",
+    "uses": 1,
+    "effect": "[Expendable] Create a 3x3 smoke cloud. Creatures in or behind the cloud have cover."
+  },
+  {
+    "id": "consumable_4",
+    "name": "Flash Powder",
+    "type": "consumable",
+    "uses": 1,
+    "effect": "[Expendable] All enemies within 2 squares gain 1 Blind counter."
+  },
+  {
+    "id": "consumable_5",
+    "name": "Antidote",
+    "type": "consumable",
+    "uses": 1,
+    "effect": "[Expendable] Remove all Poison counters from yourself or an adjacent ally."
+  }
+]

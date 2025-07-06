@@ -1,0 +1,157 @@
+[
+  {
+    "id": "melee_1",
+    "name": "Sword",
+    "type": "weapon",
+    "subtype": "melee",
+    "slots": 1,
+    "weaponRange": "Melee, 1 square",
+    "effect": "Channeled attacks gain a +1/+1 bonus."
+  },
+  {
+    "id": "melee_2",
+    "name": "Hammer",
+    "type": "weapon",
+    "subtype": "melee",
+    "slots": 2,
+    "weaponRange": "Melee, 1 square",
+    "effect": "Channeled attacks gain [Overwhelm]."
+  },
+  {
+    "id": "melee_3",
+    "name": "Staff",
+    "type": "weapon",
+    "subtype": "melee",
+    "slots": 1,
+    "weaponRange": "Melee, 1 square",
+    "effect": "Increase the range of channeled spell cards by 1 square."
+  },
+  {
+    "id": "melee_4",
+    "name": "Flail",
+    "type": "weapon",
+    "subtype": "melee",
+    "slots": 2,
+    "weaponRange": "Melee, 2 squares",
+    "effect": "Can attack enemies behind partial cover."
+  },
+  {
+    "id": "melee_5",
+    "name": "Dual Blades",
+    "type": "weapon",
+    "subtype": "melee",
+    "slots": 2,
+    "weaponRange": "Melee, 1 square",
+    "effect": "If you channel a standard card, draw a card at the end of your turn."
+  },
+  {
+    "id": "ranged_1",
+    "name": "Shortbow",
+    "type": "weapon",
+    "subtype": "ranged",
+    "slots": 1,
+    "weaponRange": "Ranged, 6 squares",
+    "effect": null
+  },
+  {
+    "id": "ranged_2",
+    "name": "Longbow",
+    "type": "weapon",
+    "subtype": "ranged",
+    "slots": 2,
+    "weaponRange": "Ranged, 8 squares",
+    "effect": null
+  },
+  {
+    "id": "ranged_3",
+    "name": "Artillery Sceptre",
+    "type": "weapon",
+    "subtype": "ranged",
+    "slots": 3,
+    "weaponRange": "Ranged, 10 squares",
+    "effect": null
+  },
+  {
+    "id": "ranged_4",
+    "name": "Pistol",
+    "type": "weapon",
+    "subtype": "ranged",
+    "slots": 1,
+    "weaponRange": "Ranged, 4 squares",
+    "effect": "Channeled attacks gain [Piercing]."
+  },
+  {
+    "id": "ranged_5",
+    "name": "Rifle",
+    "type": "weapon",
+    "subtype": "ranged",
+    "slots": 2,
+    "weaponRange": "Ranged, 6 squares",
+    "effect": "Channeled attacks gain [Piercing]."
+  },
+  {
+    "id": "ranged_6",
+    "name": "Wand",
+    "type": "weapon",
+    "subtype": "ranged",
+    "slots": 1,
+    "weaponRange": "Ranged, 4 squares",
+    "effect": "Once per turn, fix a channeled attack as if you spent a Strike/10 token."
+  },
+  {
+    "id": "armor_1",
+    "name": "Light Armour",
+    "type": "armor",
+    "slots": 1,
+    "effect": "Gain +1 Defence and +2 Movement Points."
+  },
+  {
+    "id": "armor_2",
+    "name": "Medium Armour",
+    "type": "armor",
+    "slots": 2,
+    "effect": "Gain +2 Defence."
+  },
+  {
+    "id": "armor_3",
+    "name": "Heavy Armour",
+    "type": "armor",
+    "slots": 3,
+    "effect": "Gain +3 Defence. You cannot jump or be pushed, pulled, or carried."
+  },
+  {
+    "id": "trinket_1",
+    "name": "Bandolier",
+    "type": "trinket",
+    "slots": 1,
+    "effect": "Add two consumable item slots. These can only hold items with the [Expendable] tag."
+  },
+  {
+    "id": "trinket_2",
+    "name": "Glider Cape",
+    "type": "trinket",
+    "slots": 1,
+    "effect": "During your turn while airborne, you may move 1 square without spending movement points."
+  },
+  {
+    "id": "trinket_3",
+    "name": "Grappling Hook",
+    "type": "trinket",
+    "slots": 1,
+    "effect": "During your turn, you may spend 3 movement points to pull yourself to a wall or ledge within 3 squares."
+  },
+  {
+    "id": "trinket_4",
+    "name": "Spellbook",
+    "type": "trinket",
+    "slots": 1,
+    "effect": "Once per turn, you may discard a spell card to draw a spell card."
+  },
+  {
+    "id": "trinket_5",
+    "name": "Arcane Focus",
+    "type": "trinket",
+    "slots": 1,
+    "effect": "Your channeled spells gain +1 to their attack rolls."
+  }
+]
