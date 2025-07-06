@@ -1,0 +1,738 @@
+/* Archmajesty Rulebook-Style CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Bebas+Neue&display=swap');
+
+/* Reset and Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* Parchment-like background */
+  background-color: #1a1815;
+  background-image: 
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 2px,
+      rgba(139, 69, 19, 0.03) 2px,
+      rgba(139, 69, 19, 0.03) 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(139, 69, 19, 0.03) 2px,
+      rgba(139, 69, 19, 0.03) 4px
+    );
+  color: #e8dcc0;
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.min-h-screen {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Decorative corner elements */
+.min-h-screen::before,
+.min-h-screen::after {
+  content: '';
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.min-h-screen::before {
+  top: 0;
+  left: 0;
+  border-top: 3px solid #d4af37;
+  border-left: 3px solid #d4af37;
+  background: linear-gradient(135deg, #d4af37 0%, transparent 20%);
+}
+
+.min-h-screen::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid #d4af37;
+  border-right: 3px solid #d4af37;
+  background: linear-gradient(-45deg, #d4af37 0%, transparent 20%);
+}
+
+/* Header */
+header {
+  background: linear-gradient(to bottom, #2d1810 0%, #1a0f08 100%);
+  border-bottom: 4px solid #d4af37;
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.7),
+    inset 0 -1px 0 rgba(212, 175, 55, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.header-title {
+  font-family: 'Cinzel', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #d4af37;
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.8),
+    0 0 20px rgba(212, 175, 55, 0.5);
+  letter-spacing: 0.15em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.header-subtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #c9b037;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+/* Main Content */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Tabs - Styled like book chapters */
+.tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-bottom: -2px;
+  position: relative;
+  z-index: 2;
+}
+
+.tab-button {
+  font-family: 'Bebas Neue', sans-serif;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  flex: 1;
+  min-width: 150px;
+  background: linear-gradient(to bottom, #3a2a1a 0%, #2a1a0a 100%);
+  color: #8b7355;
+  border: 1px solid #4a3a2a;
+  border-bottom: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.tab-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #d4af37, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tab-button:hover {
+  background: linear-gradient(to bottom, #4a3a2a 0%, #3a2a1a 100%);
+  color: #a08050;
+}
+
+.tab-button.active {
+  background: linear-gradient(to bottom, #1a1512 0%, #252015 100%);
+  color: #d4af37;
+  border-color: #d4af37;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+.tab-button.active::before {
+  opacity: 1;
+}
+
+.tab-count {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-left: 0.5rem;
+}
+
+/* Search Container - Styled like a tome page */
+.search-container {
+  background: linear-gradient(to bottom, #1a1512 0%, #252015 100%);
+  border: 2px solid #d4af37;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(212, 175, 55, 0.2);
+}
+
+/* Decorative corners for search container */
+.search-container::before,
+.search-container::after {
+  content: '✦';
+  position: absolute;
+  color: #d4af37;
+  font-size: 1.5rem;
+}
+
+.search-container::before {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.search-container::after {
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.filter-group label {
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.9rem;
+  color: #d4af37;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.filter-group input,
+.filter-group select {
+  width: 100%;
+  padding: 0.75rem;
+  background: #0a0806;
+  border: 1px solid #4a3a2a;
+  color: #e8dcc0;
+  font-family: 'Crimson Text', serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.filter-group input:focus,
+.filter-group select:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+  background: #151210;
+}
+
+/* View Toggle */
+.view-toggle {
+  display: flex;
+  gap: 2px;
+  background: #0a0806;
+  padding: 2px;
+  border: 1px solid #4a3a2a;
+}
+
+.view-button {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  color: #8b7355;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-button.active {
+  background: #d4af37;
+  color: #1a1512;
+}
+
+/* Results Count */
+.results-count {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #8b7355;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.results-count strong {
+  color: #d4af37;
+}
+
+/* Card Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Spell Card Styles - Mimicking rulebook cards */
+.card {
+  background: #0f0d0a;
+  border: 2px solid #3a2a1a;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(212, 175, 55, 0.01) 10px,
+      rgba(212, 175, 55, 0.01) 20px
+    );
+  pointer-events: none;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+/* Card Type Borders */
+.card.type-fire { border-color: #8b2500; box-shadow: inset 0 0 20px rgba(139, 37, 0, 0.3); }
+.card.type-wind { border-color: #4682b4; box-shadow: inset 0 0 20px rgba(70, 130, 180, 0.3); }
+.card.type-stone { border-color: #696969; box-shadow: inset 0 0 20px rgba(105, 105, 105, 0.3); }
+.card.type-metal { border-color: #708090; box-shadow: inset 0 0 20px rgba(112, 128, 144, 0.3); }
+.card.type-nature { border-color: #228b22; box-shadow: inset 0 0 20px rgba(34, 139, 34, 0.3); }
+.card.type-water { border-color: #1e5d8b; box-shadow: inset 0 0 20px rgba(30, 93, 139, 0.3); }
+.card.type-light { border-color: #ffd700; box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.3); }
+.card.type-shadow { border-color: #4b0082; box-shadow: inset 0 0 20px rgba(75, 0, 130, 0.3); }
+.card.type-default { border-color: #d4af37; }
+
+/* Card Header */
+.card-header {
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(26, 21, 18, 0.9) 0%, rgba(10, 8, 6, 0.9) 100%);
+  border-bottom: 2px solid;
+  border-color: inherit;
+  position: relative;
+}
+
+.card-header::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, currentColor, transparent);
+}
+
+/* Type-specific header backgrounds */
+.card-header.type-fire { background: linear-gradient(135deg, #4a1810 0%, #2a0800 100%); }
+.card-header.type-wind { background: linear-gradient(135deg, #1a3a4a 0%, #0a2a3a 100%); }
+.card-header.type-stone { background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); }
+.card-header.type-water { background: linear-gradient(135deg, #1a2a4a 0%, #0a1a3a 100%); }
+.card-header.type-light { background: linear-gradient(135deg, #3a3a1a 0%, #2a2a0a 100%); }
+.card-header.type-shadow { background: linear-gradient(135deg, #2a1a3a 0%, #1a0a2a 100%); }
+
+.card-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #d4af37;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.card-id {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.8rem;
+  color: #8b7355;
+  letter-spacing: 0.05em;
+}
+
+.card-cost {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #d4af37;
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-cost-value {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #d4af37;
+}
+
+.card-cost-separator {
+  color: #8b7355;
+}
+
+.card-types {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.85rem;
+  color: #c9b037;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1rem;
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-requirements {
+  font-style: italic;
+  color: #cd5c5c;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  background: rgba(139, 37, 0, 0.1);
+  border-left: 3px solid #8b2500;
+}
+
+.card-stats {
+  margin-bottom: 1rem;
+  padding-left: 0;
+  border-left: none;
+}
+
+.card-stat {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.card-stat:last-child {
+  border-bottom: none;
+}
+
+.card-stat-label {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #d4af37;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  min-width: 80px;
+}
+
+.card-stat-value {
+  font-family: 'Crimson Text', serif;
+  color: #e8dcc0;
+  font-weight: 600;
+}
+
+.card-stat-value.attack {
+  color: #ffd700;
+  font-family: 'Cinzel', serif;
+}
+
+.card-stat-value.damage {
+  color: #dc143c;
+  font-family: 'Cinzel', serif;
+}
+
+/* Card Effect Box */
+.card-effect {
+  background: rgba(26, 21, 18, 0.5);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-style: italic;
+  color: #e8dcc0;
+  position: relative;
+}
+
+.card-effect::before {
+  content: '"';
+  position: absolute;
+  top: -0.5rem;
+  left: 0.5rem;
+  font-size: 2rem;
+  color: #d4af37;
+  opacity: 0.3;
+}
+
+/* Special Effects */
+.effect-on-hit,
+.effect-on-bash {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-left: 3px solid;
+  font-size: 0.9rem;
+}
+
+.effect-on-hit {
+  background: rgba(70, 130, 180, 0.1);
+  border-color: #4682b4;
+}
+
+.effect-on-hit strong {
+  color: #87ceeb;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.effect-on-bash {
+  background: rgba(34, 139, 34, 0.1);
+  border-color: #228b22;
+}
+
+.effect-on-bash strong {
+  color: #90ee90;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Pitch Effect */
+.card-pitch {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #8b7355;
+}
+
+.card-pitch p {
+  background: rgba(139, 0, 139, 0.1);
+  border: 1px solid rgba(218, 112, 214, 0.3);
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.card-pitch strong {
+  color: #da70d6;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+/* List View */
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.list-item {
+  background: linear-gradient(to right, #0f0d0a 0%, #1a1512 100%);
+  border: 1px solid #3a2a1a;
+  border-left: 4px solid;
+  padding: 1rem 1.25rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.list-item::before {
+  content: '◆';
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: inherit;
+  opacity: 0.5;
+}
+
+.list-item:hover {
+  background: linear-gradient(to right, #1a1512 0%, #252015 100%);
+  transform: translateX(4px);
+}
+
+/* List item type colors */
+.list-item.type-fire { border-left-color: #8b2500; }
+.list-item.type-wind { border-left-color: #4682b4; }
+.list-item.type-stone { border-left-color: #696969; }
+.list-item.type-metal { border-left-color: #708090; }
+.list-item.type-nature { border-left-color: #228b22; }
+.list-item.type-water { border-left-color: #1e5d8b; }
+.list-item.type-light { border-left-color: #ffd700; }
+.list-item.type-shadow { border-left-color: #4b0082; }
+
+.list-item-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.list-item-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #d4af37;
+}
+
+.list-item-id {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.8rem;
+  color: #8b7355;
+}
+
+.list-item-types {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.85rem;
+  color: #c9b037;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.list-item-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.list-item-stat {
+  color: #8b7355;
+}
+
+.list-item-stat-value {
+  color: #e8dcc0;
+  font-weight: 600;
+}
+
+.list-item-effect {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #c9b8a8;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1a1512 0%, #0f0d0a 100%);
+  border: 2px dashed #8b7355;
+  color: #8b7355;
+}
+
+.empty-state-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  color: #d4af37;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state-subtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0 3rem;
+  background: linear-gradient(to top, #2d1810 0%, transparent 100%);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+  color: #8b7355;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.footer-content p {
+  margin: 0.25rem 0;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0806;
+  border: 1px solid #3a2a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #4a3a2a, #3a2a1a);
+  border: 1px solid #d4af37;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #5a4a3a, #4a3a2a);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 2rem;
+  }
+  
+  .filter-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tab-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}

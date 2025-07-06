@@ -210,6 +210,11 @@ export const GameDatabase: React.FC = () => {
 const ItemCard: React.FC<{ item: any; type: TabType }> = ({ item, type }) => {
   const getTypeClass = () => {
     if (type === 'spells' && item.types) {
+      // Check for specific spell names first
+      const nameLower = item.name?.toLowerCase() || '';
+      if (nameLower.includes('earthsteel')) return 'type-earthsteel';
+      
+      // Then check types
       if (item.types.includes('Fire')) return 'type-fire';
       if (item.types.includes('Wind')) return 'type-wind';
       if (item.types.includes('Stone') || item.types.includes('Metal')) return 'type-stone';
@@ -228,73 +233,71 @@ const ItemCard: React.FC<{ item: any; type: TabType }> = ({ item, type }) => {
 
   return (
     <div className={`card ${typeClass}`}>
+      {/* ID positioned absolutely */}
+      {item.id && <span className="card-id">{item.id}</span>}
+      
       {/* Header */}
-      <div className={`card-header ${typeClass}`}>
+      <div className="card-header">
         <div className="card-header-content">
-          <div>
+          <div className="card-title-line">
             <h3 className="card-name">{item.name}</h3>
-            {item.id && <p className="card-id">{item.id}</p>}
+            {type === 'spells' && item.primaryCost !== undefined && (
+              <div className="card-cost">
+                <span className="card-cost-value">{item.primaryCost}</span>
+                <span className="card-cost-separator">|</span>
+                <span className="card-cost-value">{item.secondaryCost || item.primaryCost}</span>
+              </div>
+            )}
           </div>
-          {type === 'spells' && item.primaryCost !== undefined && (
-            <div className="card-cost">
-              <span className="card-cost-value">{item.primaryCost}</span>
-              <span className="card-cost-separator">|</span>
-              <span className="card-cost-value">{item.secondaryCost}</span>
-            </div>
-          )}
-          {(type === 'equipment' || type === 'artefacts') && item.slots !== undefined && (
-            <div className="card-cost">
-              <span className="card-cost-value">{item.slots} slot{item.slots !== 1 ? 's' : ''}</span>
+          {item.types && (
+            <div className="card-types">
+              {item.types.join(', ')}
             </div>
           )}
         </div>
-        {item.types && (
-          <div className="card-types">
-            {item.types.join(' • ')}
-          </div>
-        )}
       </div>
 
       {/* Body */}
       <div className="card-body">
         {/* Requirements */}
         {item.requirements && (
-          <p className="card-requirements">
-            ⚠ {item.requirements}
-          </p>
+          <div className="card-requirements">
+            <strong>Requirements:</strong> {item.requirements}
+          </div>
         )}
 
         {/* Stats */}
         <div className="card-stats">
           {item.range && (
-            <p className="card-stat">
-              <span className="card-stat-label">Range:</span>
+            <div className="card-stat">
+              <span className="card-stat-label">Range</span>
               <span className="card-stat-value">{item.range}</span>
-            </p>
+            </div>
           )}
           {item.weaponRange && (
-            <p className="card-stat">
-              <span className="card-stat-label">Range:</span>
+            <div className="card-stat">
+              <span className="card-stat-label">Range</span>
               <span className="card-stat-value">{item.weaponRange}</span>
-            </p>
+            </div>
           )}
           {item.attack && (
-            <p className="card-stat">
-              <span className="card-stat-label">Attack:</span>
-              <span className="card-stat-value attack">{item.attack}</span>
-            </p>
+            <div className="card-stat with-line">
+              <span className="card-stat-label">Attack</span>
+              <span className="card-stat-line"></span>
+              <span className="card-stat-value">{item.attack}</span>
+            </div>
           )}
           {item.damage && (
-            <p className="card-stat">
-              <span className="card-stat-label">Damage:</span>
-              <span className="card-stat-value damage">{item.damage}</span>
-            </p>
+            <div className="card-stat">
+              <span className="card-stat-label">Damage</span>
+              <span className="card-stat-value">{item.damage === '⸻' || item.damage === '———' ? '———' : item.damage}</span>
+            </div>
           )}
           {item.cost !== undefined && type === 'artefacts' && (
-            <p className="card-stat">
-              <span className="card-stat-label">Cost:</span>
+            <div className="card-stat">
+              <span className="card-stat-label">Cost</span>
               <span className="card-stat-value">{item.cost} points</span>
-            </p>
+            </div>
           )}
         </div>
 
@@ -302,21 +305,17 @@ const ItemCard: React.FC<{ item: any; type: TabType }> = ({ item, type }) => {
         {item.effect && (
           <div className="card-effect">
             {item.effect}
-          </div>
-        )}
-
-        {/* Special Effects */}
-        {(item.onHit || item.onBash) && (
-          <div className="card-special-effects">
+            
+            {/* Special Effects inline */}
             {item.onHit && (
-              <p className="effect-on-hit">
-                <strong>On hit:</strong> <span>{item.onHit}</span>
-              </p>
+              <span className="effect-on-hit">
+                {' '}<strong>On hit:</strong> {item.onHit}
+              </span>
             )}
             {item.onBash && (
-              <p className="effect-on-bash">
-                <strong>On bash:</strong> <span>{item.onBash}</span>
-              </p>
+              <span className="effect-on-bash">
+                {' '}<strong>On bash:</strong> {item.onBash}
+              </span>
             )}
           </div>
         )}
@@ -324,9 +323,7 @@ const ItemCard: React.FC<{ item: any; type: TabType }> = ({ item, type }) => {
         {/* Pitch Effect */}
         {item.pitchEffect && (
           <div className="card-pitch">
-            <p>
-              <strong>[Pitch]</strong> <span>{item.pitchEffect}</span>
-            </p>
+            <span className="card-pitch-bracket">[Pitch]</span> {item.pitchEffect}
           </div>
         )}
       </div>
