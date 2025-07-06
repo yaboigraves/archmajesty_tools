@@ -1,3 +1,2 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import Archmajesty custom styles */
+@import './archmajesty.css';
